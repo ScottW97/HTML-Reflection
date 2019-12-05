@@ -1,0 +1,26 @@
+<nav class="mainheader">
+                <h2><a href="https://www.netmatters.co.uk/scs-web-developer-course">Training</a></h2>
+                <ul>
+                    <li><a href="https://www.netmatters.co.uk/scs-web-developer-course">Web Developer Course</a></li>
+                </ul>
+                <h2><a href="https://www.netmatters.co.uk/our-culture">Our Company</a></h2>
+                <ul>
+                    <li><a href="https://www.netmatters.co.uk/our-culture">Our Culture</a></li>
+                    <li><a href="https://www.netmatters.co.uk/office-tour">Our Office Tour</a></li>
+                    <li><a href="https://www.netmatters.co.uk/team">Our Teams</a></li>
+                    <li><a href="https://www.netmatters.co.uk/our-careers">Our Careers</a></li>
+                    <li><a href="https://www.netmatters.co.uk/our-benefits">Our Benefits</a></li>
+                    <li><a href="https://www.netmatters.co.uk/it-support-in-great-yarmouth">Our Great Yarmouth Office</a></li>
+                </ul>
+                <h2><a href="https://www.netmatters.co.uk/case-studies">Our Work</a></h2>
+                <ul>
+                    <li><a href="https://www.netmatters.co.uk/case-studies">Case Studies</a></li>
+                    <li><a href="https://www.netmatters.co.uk/portfolio">Portfolio</a></li>
+                </ul>
+                <h2><a href="https://www.netmatters.co.uk/guides">Our Knowledge</a></h2>
+                <ul>
+                    <li><a href="https://www.netmatters.co.uk/guides">Guides</a></li>
+                    <li><a href="https://www.netmatters.co.uk/articles">News</a></li>
+                    <li><a href="https://www.netmatters.co.uk/insights">Insights</a></li>
+                </ul>
+            </nav>

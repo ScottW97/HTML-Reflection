@@ -1,0 +1,15 @@
+<a href="https://support.netmatters.com/">
+                    <button type="button" class="btn btn-lg" id="supportbutton">
+                        <i class="fas fa-mouse"></i>SUPPORT
+                    </button>
+                </a>
+                <a href="https://www.netmatters.co.uk/contact-us">
+                    <button type="button" class="btn btn-lg" id="contactbutton">
+                        <i class="far fa-paper-plane"></i>CONTACT
+                    </button>
+                </a>
+                <a href="#">
+                    <button type="button" class="btn btn-lg" id="menubutton">
+                    <i class="fas fa-bars"></i></br>MENU
+                    </button>
+                </a>

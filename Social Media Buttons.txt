@@ -1,0 +1,13 @@
+<div>
+                <a href="https://en-gb.facebook.com/netmatters/" class="socialmedianm" id="fbbutton">
+                        <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="https://twitter.com/netmattersltd"><button type="button" class="socialmedianm btn btn-lg"
+                        id="twbutton">
+                        <i class="fab fa-twitter"></i>
+            </div>
+            </button></a>
+            <a href="https://www.linkedin.com/company/netmatters-ltd/"><button type="button"
+                    class="socialmedianm btn btn-lg" id="libutton">
+                    <i class="fab fa-linkedin-in"></i>
+                </button></a>
