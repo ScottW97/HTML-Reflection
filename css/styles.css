@@ -674,19 +674,19 @@ ul .dashnm:before {
   background-color: #4183D7;
 }
 
-#phoneb {
+.phoneb {
   background-color: #d64541;
 }
 
-#gridb {
+.gridb {
   background-color: #67809f;
 }
 
-#sigb {
+.sigb {
   background-color: #2ecc71;
 }
 
-#shieldb {
+.shieldb {
   background-color: #f63459;
 }
 
@@ -843,6 +843,46 @@ ul .dashnm:before {
   border-bottom: 1px solid #CCC;
   width: 82.5%;
   margin: auto;
+}
+
+.nmtts {
+  -webkit-transition: .2s;
+  transition: .2s;
+  cursor: default;
+  opacity: 0;
+  position: absolute;
+  background: #474A57;
+  color: white;
+  text-align: center;
+  z-index: 1;
+  padding: 0.5rem 1.5rem 0 1.5rem;
+  width: 200px;
+  height: 52px;
+  margin-top: -4rem;
+  margin-left: -5rem;
+}
+
+.nmtts p {
+  margin: 0;
+  font-size: 0.75rem;
+}
+
+.squares {
+  margin-top: 0.15rem;
+  margin-left: 4.5rem;
+  height: 0.5rem;
+  width: 0.5rem;
+  z-index: -1;
+  background: #474A57;
+  position: absolute;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
+.absolnm:hover .nmtts {
+  width: 200px;
+  height: 52px;
+  opacity: 1;
 }
 
 /* ================================= 
@@ -1017,19 +1057,19 @@ ul .dashnm:before {
 /* ================================= 
   Social Media Buttons
 ==================================== */
-#fbbutton {
+.fbbutton {
   margin-right: 1.75rem;
 }
 
-#fbbutton:hover {
+.fbbutton:hover {
   background-color: #3b5998;
 }
 
-#twbutton:hover {
+.twbutton:hover {
   background-color: #00aced;
 }
 
-#libutton:hover {
+.libutton:hover {
   background-color: #0077b5;
 }
 
@@ -1098,7 +1138,7 @@ ul .dashnm:before {
   line-height: 0.8;
 }
 
-#square {
+.square {
   margin-top: -0.25rem;
   margin-left: 4.875rem;
   height: 3.5rem;
