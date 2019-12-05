@@ -377,6 +377,7 @@ li span {
 
 
 
+
 /* ================================= 
   Navigation Drop-Down Menu
 ==================================== */
@@ -699,7 +700,7 @@ ul {
   }
 }
 
-.telcard {
+#telcard {
   .read-more {
     background-color: #d64541;
   }
@@ -719,7 +720,27 @@ ul {
   }
 }
 
-.bescard {
+#telcard1 {
+  .read-more {
+    background-color: #d64541;
+  }
+
+  &:hover {
+    background-color: #d64541;
+
+    .icircle {
+      color: #d64541;
+      background-color: white;
+    }
+
+    .read-more {
+      color: #d64541;
+      background-color: white;
+    }
+  }
+}
+
+#bescard {
   .read-more {
     background-color: #67809f;
   }
@@ -733,13 +754,39 @@ ul {
     }
 
     .read-more {
+      p {
+        color: #67809f;
+      }
       color: #67809f;
       background-color: white;
     }
   }
 }
 
-.digcard {
+#bescard1 {
+  .read-more {
+    background-color: #67809f;
+  }
+
+  &:hover {
+    background-color: #67809f;
+
+    .icircle {
+      color: #67809f;
+      background-color: white;
+    }
+
+    .read-more {
+      p {
+        color: #67809f;
+      }
+      color: #67809f;
+      background-color: white;
+    }
+  }
+}
+
+#digcard {
   .read-more {
     background-color: #2ecc71;
   }
@@ -759,7 +806,47 @@ ul {
   }
 }
 
-.cybercard {
+#digcard1 {
+  .read-more {
+    background-color: #2ecc71;
+  }
+
+  &:hover {
+    background-color: #2ecc71;
+
+    .icircle {
+      color: #2ecc71;
+      background-color: white;
+    }
+
+    .read-more {
+      color: #2ecc71;
+      background-color: white;
+    }
+  }
+}
+
+#cybercard {
+  .read-more {
+    background-color: #f63459;
+  }
+
+  &:hover {
+    background-color: #f63459;
+
+    .icircle {
+      color: #f63459;
+      background-color: white;
+    }
+
+    .read-more {
+      color: #f63459;
+      background-color: white;
+    }
+  }
+}
+
+#cybercard1 {
   .read-more {
     background-color: #f63459;
   }
@@ -1499,7 +1586,7 @@ ul {
       margin-left: 1.75rem;
     }
 
-    #cybercard {
+    #cybercard1 {
       p {
         margin-bottom: 2.3rem;
       }

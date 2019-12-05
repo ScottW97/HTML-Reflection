@@ -591,74 +591,154 @@ ul .dashnm:before {
   background-color: white;
 }
 
-.telcard .read-more {
+#telcard .read-more {
   background-color: #d64541;
 }
 
-.telcard:hover {
+#telcard:hover {
   background-color: #d64541;
 }
 
-.telcard:hover .icircle {
+#telcard:hover .icircle {
   color: #d64541;
   background-color: white;
 }
 
-.telcard:hover .read-more {
+#telcard:hover .read-more {
   color: #d64541;
   background-color: white;
 }
 
-.bescard .read-more {
+#telcard1 .read-more {
+  background-color: #d64541;
+}
+
+#telcard1:hover {
+  background-color: #d64541;
+}
+
+#telcard1:hover .icircle {
+  color: #d64541;
+  background-color: white;
+}
+
+#telcard1:hover .read-more {
+  color: #d64541;
+  background-color: white;
+}
+
+#bescard .read-more {
   background-color: #67809f;
 }
 
-.bescard:hover {
+#bescard:hover {
   background-color: #67809f;
 }
 
-.bescard:hover .icircle {
+#bescard:hover .icircle {
   color: #67809f;
   background-color: white;
 }
 
-.bescard:hover .read-more {
+#bescard:hover .read-more {
   color: #67809f;
   background-color: white;
 }
 
-.digcard .read-more {
+#bescard:hover .read-more p {
+  color: #67809f;
+}
+
+#bescard1 .read-more {
+  background-color: #67809f;
+}
+
+#bescard1:hover {
+  background-color: #67809f;
+}
+
+#bescard1:hover .icircle {
+  color: #67809f;
+  background-color: white;
+}
+
+#bescard1:hover .read-more {
+  color: #67809f;
+  background-color: white;
+}
+
+#bescard1:hover .read-more p {
+  color: #67809f;
+}
+
+#digcard .read-more {
   background-color: #2ecc71;
 }
 
-.digcard:hover {
+#digcard:hover {
   background-color: #2ecc71;
 }
 
-.digcard:hover .icircle {
+#digcard:hover .icircle {
   color: #2ecc71;
   background-color: white;
 }
 
-.digcard:hover .read-more {
+#digcard:hover .read-more {
   color: #2ecc71;
   background-color: white;
 }
 
-.cybercard .read-more {
+#digcard1 .read-more {
+  background-color: #2ecc71;
+}
+
+#digcard1:hover {
+  background-color: #2ecc71;
+}
+
+#digcard1:hover .icircle {
+  color: #2ecc71;
+  background-color: white;
+}
+
+#digcard1:hover .read-more {
+  color: #2ecc71;
+  background-color: white;
+}
+
+#cybercard .read-more {
   background-color: #f63459;
 }
 
-.cybercard:hover {
+#cybercard:hover {
   background-color: #f63459;
 }
 
-.cybercard:hover .icircle {
+#cybercard:hover .icircle {
   color: #f63459;
   background-color: white;
 }
 
-.cybercard:hover .read-more {
+#cybercard:hover .read-more {
+  color: #f63459;
+  background-color: white;
+}
+
+#cybercard1 .read-more {
+  background-color: #f63459;
+}
+
+#cybercard1:hover {
+  background-color: #f63459;
+}
+
+#cybercard1:hover .icircle {
+  color: #f63459;
+  background-color: white;
+}
+
+#cybercard1:hover .read-more {
   color: #f63459;
   background-color: white;
 }
@@ -1288,7 +1368,7 @@ ul .dashnm:before {
     margin-right: 1.75rem;
     margin-left: 1.75rem;
   }
-  #cardset4 #cybercard p {
+  #cardset4 #cybercard1 p {
     margin-bottom: 2.3rem;
   }
   .one {
