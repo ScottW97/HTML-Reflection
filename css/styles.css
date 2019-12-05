@@ -219,7 +219,7 @@ li span {
   color: white;
   margin: 0 auto;
   padding: 0.75rem 0 0.75rem;
-  width: 100vw;
+  width: calc(100vw - (100vw - 100%));
   left: 0;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -591,74 +591,74 @@ ul .dashnm:before {
   background-color: white;
 }
 
-#telcard .read-more {
+.telcard .read-more {
   background-color: #d64541;
 }
 
-#telcard:hover {
+.telcard:hover {
   background-color: #d64541;
 }
 
-#telcard:hover .icircle {
+.telcard:hover .icircle {
   color: #d64541;
   background-color: white;
 }
 
-#telcard:hover .read-more {
+.telcard:hover .read-more {
   color: #d64541;
   background-color: white;
 }
 
-#bescard .read-more {
+.bescard .read-more {
   background-color: #67809f;
 }
 
-#bescard:hover {
+.bescard:hover {
   background-color: #67809f;
 }
 
-#bescard:hover .icircle {
+.bescard:hover .icircle {
   color: #67809f;
   background-color: white;
 }
 
-#bescard:hover .read-more {
+.bescard:hover .read-more {
   color: #67809f;
   background-color: white;
 }
 
-#digcard .read-more {
+.digcard .read-more {
   background-color: #2ecc71;
 }
 
-#digcard:hover {
+.digcard:hover {
   background-color: #2ecc71;
 }
 
-#digcard:hover .icircle {
+.digcard:hover .icircle {
   color: #2ecc71;
   background-color: white;
 }
 
-#digcard:hover .read-more {
+.digcard:hover .read-more {
   color: #2ecc71;
   background-color: white;
 }
 
-#cybercard .read-more {
+.cybercard .read-more {
   background-color: #f63459;
 }
 
-#cybercard:hover {
+.cybercard:hover {
   background-color: #f63459;
 }
 
-#cybercard:hover .icircle {
+.cybercard:hover .icircle {
   color: #f63459;
   background-color: white;
 }
 
-#cybercard:hover .read-more {
+.cybercard:hover .read-more {
   color: #f63459;
   background-color: white;
 }

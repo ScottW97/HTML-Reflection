@@ -238,7 +238,7 @@ li span {
       color: white;
       margin: 0 auto;
       padding: 0.75rem 0 0.75rem;
-      width: 100vw;
+      width: calc(100vw - (100vw - 100%));
       left: 0;
       justify-content: center;
       li {
@@ -699,7 +699,7 @@ ul {
   }
 }
 
-#telcard {
+.telcard {
   .read-more {
     background-color: #d64541;
   }
@@ -719,7 +719,7 @@ ul {
   }
 }
 
-#bescard {
+.bescard {
   .read-more {
     background-color: #67809f;
   }
@@ -739,7 +739,7 @@ ul {
   }
 }
 
-#digcard {
+.digcard {
   .read-more {
     background-color: #2ecc71;
   }
@@ -759,7 +759,7 @@ ul {
   }
 }
 
-#cybercard {
+.cybercard {
   .read-more {
     background-color: #f63459;
   }
