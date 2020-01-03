@@ -214,6 +214,7 @@ li span {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  z-index: 2;
   position: absolute;
   text-decoration: none;
   color: white;
@@ -364,11 +365,14 @@ ul .dashnm:before {
 /* ================================= 
   Banner
 ==================================== */
+.slides:active {
+  cursor: -webkit-grab;
+  cursor: grab;
+}
+
 .banner {
   height: calc(100vh - 111px);
   font-size: 1.375rem;
-  background: -webkit-gradient(linear, left top, right top, from(black), color-stop(162.5%, transparent)), url("/Images/web-design.jpg") no-repeat center;
-  background: linear-gradient(90deg, black, transparent 162.5%), url("/Images/web-design.jpg") no-repeat center;
   background-size: cover;
   color: white;
   text-align: center;
@@ -387,6 +391,36 @@ ul .dashnm:before {
   padding: 0;
 }
 
+.bannerweb {
+  background: -webkit-gradient(linear, left top, right top, from(black), color-stop(162.5%, transparent)), url("/Images/web-design.jpg") no-repeat center;
+  background: linear-gradient(90deg, black, transparent 162.5%), url("/Images/web-design.jpg") no-repeat center;
+}
+
+.bannerit {
+  background: -webkit-gradient(linear, left top, right top, from(black), color-stop(162.5%, transparent)), url("/Images/it-support.jpg") no-repeat center;
+  background: linear-gradient(90deg, black, transparent 162.5%), url("/Images/it-support.jpg") no-repeat center;
+}
+
+.bannertele {
+  background: -webkit-gradient(linear, left top, right top, from(black), color-stop(162.5%, transparent)), url("/Images/telecoms-services.jpg") no-repeat center;
+  background: linear-gradient(90deg, black, transparent 162.5%), url("/Images/telecoms-services.jpg") no-repeat center;
+}
+
+.bannerbesp {
+  background: -webkit-gradient(linear, left top, right top, from(black), color-stop(162.5%, transparent)), url("/Images/bespoke-software.jpg") no-repeat center;
+  background: linear-gradient(90deg, black, transparent 162.5%), url("/Images/bespoke-software.jpg") no-repeat center;
+}
+
+.bannerdigi {
+  background: -webkit-gradient(linear, left top, right top, from(black), color-stop(162.5%, transparent)), url("/Images/digital-marketing.jpg") no-repeat center;
+  background: linear-gradient(90deg, black, transparent 162.5%), url("/Images/digital-marketing.jpg") no-repeat center;
+}
+
+.bannercyber {
+  background: -webkit-gradient(linear, left top, right top, from(black), color-stop(162.5%, transparent)), url("/Images/cyber-security.jpg") no-repeat center;
+  background: linear-gradient(90deg, black, transparent 162.5%), url("/Images/cyber-security.jpg") no-repeat center;
+}
+
 @media (max-width: 465px) {
   .banner p {
     width: 80%;
@@ -399,20 +433,66 @@ ul .dashnm:before {
   font-size: 1.25rem;
   border-radius: 2.5px;
   letter-spacing: 0.0375rem;
-  background-color: #926fb1;
 }
 
 .bannerb:hover {
   color: white;
   text-decoration: none;
-  background-color: #79539a;
 }
 
 .bannerb .arrowb {
   margin-left: 1rem;
 }
 
-#bcontainer {
+.web-b {
+  background-color: #926fb1;
+}
+
+.web-b:hover {
+  background-color: #79539a;
+}
+
+.it-b {
+  background-color: #4183d7;
+}
+
+.it-b:hover {
+  background-color: #2a6ec6;
+}
+
+.tele-b {
+  background-color: #d64541;
+}
+
+.tele-b:hover {
+  background-color: #bc2c28;
+}
+
+.besp-b {
+  background-color: #67809f;
+}
+
+.besp-b:hover {
+  background-color: #566c88;
+}
+
+.digi-b {
+  background-color: #2ecc71;
+}
+
+.digi-b:hover {
+  background-color: #26ab5f;
+}
+
+.cyber-b {
+  background-color: #f62459;
+}
+
+.cyber-b:hover {
+  background-color: #e80a42;
+}
+
+.bcontainer {
   padding-top: 31vh;
 }
 
@@ -1407,8 +1487,8 @@ ul .dashnm:before {
 }
 
 /* ================================= 
-  BREAK POINT TWO
-==================================== */
+    BREAK POINT TWO
+  ==================================== */
 @media (min-width: 992px) {
   .maintext-bg {
     height: 35rem;
@@ -1435,8 +1515,6 @@ ul .dashnm:before {
     height: 759px;
     text-align: left;
     padding-top: 15.5rem;
-    background: -webkit-gradient(linear, left top, right top, from(black), color-stop(75%, transparent)), url("/Images/web-design.jpg") no-repeat center;
-    background: linear-gradient(90deg, black, transparent 75%), url("/Images/web-design.jpg") no-repeat center;
   }
   .banner p {
     padding: 0;
@@ -1444,7 +1522,15 @@ ul .dashnm:before {
     margin-bottom: 2.5em;
     width: 450px;
   }
-  #bcontainer {
+  .bannerweb {
+    background: -webkit-gradient(linear, left top, right top, from(black), color-stop(75%, transparent)), url("/Images/web-design.jpg") no-repeat center;
+    background: linear-gradient(90deg, black, transparent 75%), url("/Images/web-design.jpg") no-repeat center;
+  }
+  .bannerit {
+    background: -webkit-gradient(linear, left top, right top, from(black), color-stop(75%, transparent)), url("/Images/it-support.jpg") no-repeat center;
+    background: linear-gradient(90deg, black, transparent 75%), url("/Images/it-support.jpg") no-repeat center;
+  }
+  .bcontainer {
     width: 937.5px;
     margin: auto;
     padding: 0;
@@ -1550,8 +1636,8 @@ ul .dashnm:before {
 }
 
 /* ================================= 
-  BREAK POINT THREE
-==================================== */
+    BREAK POINT THREE
+  ==================================== */
 @media (min-width: 1260px) {
   .main-header {
     width: 1200px;
@@ -1598,7 +1684,7 @@ ul .dashnm:before {
   .banner {
     padding-top: 15.75rem;
   }
-  #bcontainer {
+  .bcontainer {
     width: 1170px;
     margin: auto;
   }
@@ -1719,8 +1805,8 @@ ul .dashnm:before {
 }
 
 /* ================================= 
-  MAX WIDTH QUERIES
-==================================== */
+    MAX WIDTH QUERIES
+  ==================================== */
 @media (max-width: 602px) {
   #logo {
     width: 71.5%;
@@ -1750,19 +1836,19 @@ ul .dashnm:before {
 }
 
 @media (max-width: 465px) {
-  #bcontainer {
+  .bcontainer {
     padding-top: 27vh;
   }
 }
 
 @media (max-width: 424px) {
-  #bcontainer {
+  .bcontainer {
     padding-top: 27vh;
   }
 }
 
 @media (max-width: 374px) {
-  #bcontainer {
+  .bcontainer {
     padding-top: 25vh;
   }
 }

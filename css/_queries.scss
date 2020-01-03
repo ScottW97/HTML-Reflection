@@ -1,0 +1,658 @@
+/* ================================= 
+  BREAK POINT ONE
+==================================== */
+
+@media (min-width: 768px) {
+    #phoneicon {
+      display: none;
+    }
+    
+    .logos {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      width: 700px;
+      margin: 0 auto;
+      padding: 3.05rem 0 3.5rem 0;
+  
+      .imgdisplay {
+        img {
+          height: 3.25rem;
+        }
+      }
+  
+      .imgset {
+        img {
+          height: 3rem;
+        }
+      }
+    }
+  
+    .nmacard {
+      margin: auto;
+      max-width: 337px;
+    }
+  
+    .agroup {
+      display: flex;
+      justify-content: space-between;
+      width: 700px;
+    }
+  
+    .articleset {
+      padding: 3rem 0rem 3rem 0rem;
+      box-shadow: inset 0 32px 48px -44px #CCC;
+    }
+  
+    .nmlinks {
+      display: flex;
+      margin: 0 auto;
+      justify-content: space-between;
+      width: 650px;
+    }
+  
+    #acard3 {
+      display: none;
+    }
+  
+    #acard2 {
+      h5 {
+        margin-bottom: 2.55rem;
+      }
+    }
+  
+    .artcont {
+      display: flex;
+      width: 750px;
+      margin: 0 auto;
+      justify-content: left;
+    }
+  
+    .nmcontainer {
+      width: 750px;
+      margin: 0 auto;
+      padding: 2.5rem 2rem 3.5rem 1rem;
+    }
+  
+    #cardset1 {
+      margin: auto;
+      justify-content: center;
+      padding: 3rem 0rem 2rem 0rem;
+      width: 737.5px;
+      display: flex;
+    
+      .nmcard {
+        margin: 0 1rem 0 1rem;
+        max-width: 350px;
+      }
+  
+      .cardtext {
+        font-size: 0.85rem;
+        margin-right: 1.75rem;
+        margin-left: 1.75rem;
+      }
+    }
+  
+    #cardset3 {
+      margin: auto;
+      justify-content: center;
+      padding: 0rem 0rem 2rem 0rem;
+      width: 737.5px;
+      display: flex;
+    
+      .nmcard {
+        margin: 0 1rem 0 1rem;
+        max-width: 350px;
+      }
+  
+      .cardtext {
+        margin-right: 1.75rem;
+        margin-left: 1.75rem;
+      }
+    }
+  
+    #cardset4 {
+      margin: auto;
+      justify-content: center;
+      padding: 0rem 0rem 3rem 0rem;
+      width: 737.5px;
+      display: flex;
+    
+      .nmcard {
+        margin: 0 1rem 0 1rem;
+        max-width: 350px;
+      }
+  
+      .cardtext {
+        font-size: 0.85rem;
+        margin-right: 1.75rem;
+        margin-left: 1.75rem;
+      }
+  
+      #cybercard1 {
+        p {
+          margin-bottom: 2.3rem;
+        }
+      }
+    }
+  
+    .one {
+      display: none;
+    }
+  
+    .socialmedianm {
+      width: 10rem;
+    }
+  
+    #twosplit {
+      display: inline-flex;
+    }
+  
+    .nmlinks {
+      width: 735px;
+    }
+  
+    .splitspace {
+      margin-right: 10rem;
+    }
+  
+    #btt {
+      margin-top: -11.55rem;
+      margin-left: -4rem;
+    }
+    
+    #cgbtt {
+      margin-top: -14.2rem;
+      margin-left: -1.75rem;
+    }
+    
+    #bedtt {
+      margin-top: -11.55rem;
+      margin-left: -6.375rem;
+    }
+    
+    #ndtt {
+      margin-top: -14.2rem;
+      margin-left: -1.25rem;
+    }
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  /* ================================= 
+    BREAK POINT TWO
+  ==================================== */
+  
+  @media (min-width: 992px) {
+    .maintext-bg {
+      height: 35rem;
+      background-image: url('/Images/branded.png');
+      background-size: auto 100%;
+      line-height: 1.85;
+      font-size: 1.075rem;
+    }
+  
+    #supportbutton,
+    #contactbutton {
+      display: inline;
+    }
+  
+    #bdr {
+      display: flex;
+    }
+  
+    .navb {
+      width: 158px;
+      margin-bottom: 0;
+      padding-bottom: 0;
+    }
+  
+    .banner {
+      height: 759px;
+      text-align: left;
+      padding-top: 15.5rem;
+  
+      p {
+        padding: 0;
+        margin: 0;
+        margin-bottom: 2.5em;
+        width: 450px;
+      }
+    }
+  
+    .bannerweb {
+      background: linear-gradient(90deg, black, transparent 75%),
+      url('/Images/web-design.jpg') no-repeat center;
+    }
+  
+    .bannerit {
+      background: linear-gradient(90deg, black, transparent 75%),
+      url('/Images/it-support.jpg') no-repeat center;
+    }
+  
+    .bcontainer {
+      width: 937.5px;
+      margin: auto;
+      padding: 0;
+    }
+  
+    .maintext-bg {
+      height: 463px;
+    }
+  
+    .nmcontainer {
+      width: 937.5px;
+      margin: 0 auto;
+      padding: 2.5rem 1.5rem 0.5rem 0rem;
+    }
+  
+    #cardset1 {
+      width: 975px;
+    
+      .nmcard {
+        max-width: 455px;
+      }
+  
+      .cardtext {
+        font-size: 0.85rem;
+        margin-right: 2.5rem;
+        margin-left: 2.5rem;
+      }
+    }
+  
+    #cardset3 {
+      width: 975px;
+    
+      .nmcard {
+        max-width: 455px;
+      }
+  
+      .cardtext {
+        margin-right: 2.5rem;
+        margin-left: 2.5rem;
+      }
+    }
+  
+    #cardset4 {
+      padding: 0rem 0rem 4rem 0rem;
+      width: 975px;
+    
+      .nmcard {
+        max-width: 455px;
+      }
+  
+      .cardtext {
+        font-size: 0.85rem;
+        margin-right: 2.5rem;
+        margin-left: 2.5rem;
+      }
+  
+      #cybercard {
+        p {
+          margin-bottom: 1.625rem;
+        }
+      }
+    }
+  
+    .artcont {
+      width: 975px;
+    }
+  
+    .nmacard {
+      margin: auto;
+      min-height: 624px;
+      max-width: 450px;
+    }
+  
+    .agroup {
+      width: 960px;
+    }
+  
+    #acard1 {
+      .cardtext {
+        padding-bottom: 10rem;
+      }
+  
+      h5 {
+        margin-bottom: 1.05rem;
+      }
+    }
+  
+    #acard2 {
+      h5 {
+        margin-bottom: 2.55rem;
+      }
+    }
+  
+    .nmlinks {
+      width: 925px;
+    }
+  
+    .socialmedianm {
+      width: 13.25rem;
+    }
+  
+    .splitspace {
+      margin-right: 15rem;
+    }
+  
+    .logos {
+      width: 925px;
+  
+      .imgdisplay {
+        img {
+          height: 6rem;
+        }
+        
+      }
+  
+      .imgset {
+        img {
+          height: 4rem;
+        }
+      }
+    }
+  
+    #btt {
+      margin-top: -11.55rem;
+      margin-left: -2.5rem;
+    }
+    
+    #cgbtt {
+      margin-top: -14.2rem;
+      margin-left: 0.25rem;
+    }
+    
+    #bedtt {
+      margin-top: -11.55rem;
+      margin-left: -5.75rem;
+    }
+    
+    #ndtt {
+      margin-top: -14.2rem;
+      margin-left: 1rem;
+    }
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  /* ================================= 
+    BREAK POINT THREE
+  ==================================== */
+  
+  @media (min-width: 1260px) {
+  
+    .main-header {
+      width: 1200px;
+      margin: 0 auto;
+    }
+  
+    .name {
+      float: left;
+    }
+  
+    ul {
+      list-style: none;
+    
+      .dashnm:before {
+        content: '-';
+        padding-left: 2.25rem;
+      }
+    }
+    
+    li span {
+      margin-left: 2.25rem;
+    }
+  
+    .navb {
+      width: 195px; 
+  
+      &:hover {
+        a {
+          color: white;
+          text-decoration: none;
+        }
+    
+        .hovermenu {
+          display: flex;
+          position: absolute;
+          text-decoration: none;
+          color: white;
+          margin: 0 auto;
+          padding: 0.65rem 0 0.65rem;
+          width: 100%;
+          left: 0;
+          justify-content: center;
+  
+          li {
+            font-size: 1rem;
+          }
+        }
+      }
+    }
+  
+    .banner {
+      padding-top: 15.75rem;
+    }
+  
+    .bcontainer {
+      width: 1170px;
+      margin: auto;
+    }
+  
+    #cardset1 {
+      padding: 3rem 0rem 0rem 0rem;
+      width: 1200px;
+    
+      .nmcard {
+        max-width: 572.5px;
+      }
+  
+      .read-more {
+        margin-left: 13.5rem;
+        margin-right: 13.5rem;
+      }
+    }
+  
+    #cardset2 {
+      margin: auto;
+      justify-content: center;
+      display: flex;
+      padding-top: 2rem;
+      padding-bottom: 3rem;
+      width: 1200px;
+    
+      .cardtext {
+        font-size: 0.85rem;
+        margin-right: 1.5rem;
+        margin-left: 1.5rem;
+      }
+    
+      .nmcard {
+        margin: 0 1.125rem 0 1.125rem;
+        max-width: 267.5px;
+      }
+    
+      .read-more {
+        color: white;
+        width: 125px;
+        margin: auto;
+        margin-bottom: 2rem;
+        padding: 0.625rem;
+        font-size: 1.1rem;
+        border-radius: 2.5px;
+        letter-spacing: 0.0375rem;
+      }
+    }
+  
+    #cardset3 {
+      display: none;
+    }
+  
+    #cardset4 {
+      display: none;
+    }
+  
+    .nmcontainer {
+      width: 1175px;
+      margin: 0 auto;
+      padding: 2.5rem 38.75rem 0.5rem 0rem;
+    }
+  
+    .maintext-bg {
+      height: 35rem;
+    }
+  
+    #acard3 {
+      display: flex;
+    }
+  
+    .nmacard {
+      max-width: 370px;
+      min-height: 0;
+    }
+  
+    .agroup {
+      width: 1200px;
+    }
+  
+    #acard1 {
+      h5 {
+        margin-bottom: 1.1rem;
+      }
+    }
+  
+    #acard2 {
+      h5 {
+        margin-bottom: 2.55rem;
+      }
+    }
+  
+    .artcont {
+      width: 1200px;
+    }
+  
+    .nmlinks {
+      width: 1170px;
+    }
+  
+    .socialmedianm {
+      width: 7.25rem;
+    }
+  
+    .one {
+      display: inline-block;
+    }
+  
+    #twosplit {
+      display: none;
+    }
+  
+    .logos {
+      width: 1170px;
+  
+      .imgdisplay {
+        img {
+          height: initial;
+        }
+      }
+  
+      .imgset {
+        img {
+          height: initial;
+        }
+      }
+    }
+  
+    #btt {
+      margin-top: -11.55rem;
+      margin-left: -2.25rem;
+    }
+    
+    #cgbtt {
+      margin-top: -14.2rem;
+      margin-left: 1rem;
+    }
+    
+    #bedtt {
+      margin-top: -11.55rem;
+      margin-left: -5.5rem;
+    }
+    
+    #ndtt {
+      margin-top: -14.2rem;
+      margin-left: 2rem;
+    }
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  /* ================================= 
+    MAX WIDTH QUERIES
+  ==================================== */
+  
+  @media (max-width: 602px) {
+    #logo {
+      width: 71.5%;
+      position: relative;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+  }
+  
+  @media (max-width: 465px) { //For Mobile L
+    #logo {
+      width: 61%;
+    }
+  }
+  
+  @media (max-width: 424px) { //For Mobile M
+    #logo {
+      width: 56%;
+    }
+  }
+  
+  @media (max-width: 374px) { //For Mobile S
+    #logo {
+      width: 49%;
+    }
+  }
+  
+  @media (max-width: 465px) { //For Mobile L
+    .bcontainer {
+      padding-top: 27vh;
+    }
+  }
+  
+  @media (max-width: 424px) { //For Mobile M
+    .bcontainer {
+      padding-top: 27vh;
+    }
+  }
+  
+  @media (max-width: 374px) { //For Mobile S
+    .bcontainer {
+      padding-top: 25vh;
+    }
+  }

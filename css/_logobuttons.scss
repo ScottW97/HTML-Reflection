@@ -1,0 +1,96 @@
+/* ================================= 
+  Logo + Buttons
+==================================== */
+
+.main-header {
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    height: 110px;
+    overflow: hidden;
+    background-color: white;
+    vertical-align: middle;
+  }
+  
+  .main-nav {
+    margin-top: 0.5rem;
+    display: flex;
+    float: right;
+  }
+  
+  #logo {
+    padding-left: 15px;
+    float: left;
+    border-image-repeat: stretch;
+  }
+  
+  #supportbutton,
+  #contactbutton {
+    display: none;
+    text-decoration: none;
+    padding: 0.85rem 0.875rem 0.85rem 0.95rem;
+    margin-right: 1.2rem;
+    color: white;
+    font-size: 1.125rem;
+    letter-spacing: 0.0375rem;
+  }
+  
+  #supportbutton,
+  #contactbutton,
+  #menubutton {
+    border-radius: 2.5px;
+  }
+  
+  #supportbutton {
+    background-color: #4183D7;
+  
+    &:hover {
+      background-color: #2A6EC6;
+    }
+  }
+  
+  #contactbutton {
+    background-color: #999AA2;
+  
+    &:hover {
+      background-color: #84858F;
+    }
+  }
+  
+  #menubutton {
+    border: none;
+    padding: .3rem .95rem .2rem .95rem;
+    margin-right: 15px;
+    background-color: #333645;
+    color: white;
+    font-size: 0.715rem;
+  
+    &:hover {
+      background-color: #22242E;
+    }
+  }
+  
+  .fa-mouse,
+  .fa-paper-plane {
+    padding-right: 0.875rem;
+    font-size: 1.215rem;
+  }
+  
+  .fa-bars {
+    font-size: 1.875rem;
+  }
+  
+  #phoneicon {
+    display: block;
+    width: 2rem;
+    font-size: 2rem;
+    margin-right: 1.5rem;
+    a:hover {
+      color: #333645;
+      
+    }
+  
+    &:hover {
+      border-bottom: solid;
+      border-width: 5px;
+    }
+  }

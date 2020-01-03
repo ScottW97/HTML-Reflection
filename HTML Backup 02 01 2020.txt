@@ -10,12 +10,8 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/db00b2be21.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="css/normalize.min.css">
-    <link rel="stylesheet" href="js/animsition/animsition.min.css">
-    <link rel="stylesheet" href="js/slick/slick.css">
-    <link rel="stylesheet" href="js/slick/slick-theme.css">
+    <script src="netmatters.js"></script>
     <link rel="stylesheet" href="/css/styles.css" type="text/css" />
-    
 </head>
 
 <body>
@@ -205,67 +201,15 @@
         </div>
     </nav>
 
-    <div class="slides">
-        <div class="banner bannerweb">
-            <div class="bcontainer">
-                <h1>WEB DESIGN</h1>
-                <p>For businesses looking to make a strong <br>and effective first impression.</p>
-                <a href="https://support.netmatters.com/web-design" class="bannerb web-b">
-                    FIND OUT MORE<i class="fa fa-arrow-right arrowb"></i>
-                </a>
-            </div>
+    <section class="banner">
+        <div id="bcontainer">
+            <h1>WEB DESIGN</h1>
+            <p>For businesses looking to make a strong and effective first impression.</p>
+            <a href="https://support.netmatters.com/web-design" class="bannerb">
+                FIND OUT MORE<i class="fa fa-arrow-right arrowb"></i>
+            </a>
         </div>
-
-        <div class="banner bannerit">
-            <div class="bcontainer">
-                <h1>IT SUPPORT</h1>
-                <p>Fast and cost-effective IT support <br>services for your business.</p>
-                <a href="https://support.netmatters.com/web-design" class="bannerb it-b">
-                    FIND OUT MORE<i class="fa fa-arrow-right arrowb"></i>
-                </a>
-            </div>
-        </div>
-
-        <div class="banner bannertele">
-            <div class="bcontainer">
-                <h1>TELECOMS SERVICES</h1>
-                <p>A new approach to connectivity, see how <br>we can help your business.</p>
-                <a href="https://support.netmatters.com/telecoms-services" class="bannerb tele-b">
-                    FIND OUT MORE<i class="fa fa-arrow-right arrowb"></i>
-                </a>
-            </div>
-        </div>
-
-        <div class="banner bannerbesp">
-            <div class="bcontainer">
-                <h1>BESPOKE SOFTWARE</h1>
-                <p>Bring your business together with solutions that grow with you.</p>
-                <a href="https://support.netmatters.com/bespoke-software" class="bannerb besp-b">
-                    FIND OUT MORE<i class="fa fa-arrow-right arrowb"></i>
-                </a>
-            </div>
-        </div>
-
-        <div class="banner bannerdigi">
-            <div class="bcontainer">
-                <h1>DIGITAL MARKETING</h1>
-                <p>Generating you new business through results-driven marketing activities.</p>
-                <a href="https://support.netmatters.com/digital-marketing" class="bannerb digi-b">
-                    FIND OUT MORE<i class="fa fa-arrow-right arrowb"></i>
-                </a>
-            </div>
-        </div>
-
-        <div class="banner bannercyber">
-            <div class="bcontainer">
-                <h1>CYBER SECURITY</h1>
-                <p>Generating you new business through results-driven marketing activities.</p>
-                <a href="https://support.netmatters.com/cyber-security" class="bannerb cyber-b">
-                    FIND OUT MORE<i class="fa fa-arrow-right arrowb"></i>
-                </a>
-            </div>
-        </div>
-    </div>
+    </section>
 
     <section class="cardset">
         <div id="cardset1">
@@ -725,21 +669,6 @@
             <img src="Images/Awards/Norfolk_Carbon_Charter.jpg" alt="Norfolk Carbon Charter" class="colour">
         </div>
     </footer>
-    <script src="js/jquery-1.11.2.min.js"></script>
-    <script src="js/animsition/jquery.animsition.min.js"></script>
-    <script src="js/sticky/jquery.sticky.js"></script>
-    <script src="js/slick/slick.min.js"></script>
-    <script src="js/main.js"></script>
-    <script>
-        $('.slides').slick({
-            autoplay: true,
-            autoplaySpeed: 4000,
-            arrows: false,
-            dots: true,
-            speed: 250,
-        });
-    </script>
-
 </body>
 
 </html>

@@ -1,0 +1,63 @@
+/* ================================= 
+  Navbar Hover Colours
+==================================== */
+
+.webdesign {
+    &:hover {
+      background-color: #926fb1;
+  
+      #navcode {
+        color: white;
+      }
+    }
+  }
+  
+  .itsupport {
+    &:hover {
+      background-color: #4183d7;
+  
+      #navdesk {
+        color: white;
+      }
+    }
+  }
+  
+  .telecoms {
+    &:hover {
+      background-color: #d64541;
+  
+      #navphone {
+        color: white;
+      }
+    }
+  }
+  
+  .bespoke {
+    &:hover {
+      background-color: #67809f;
+  
+      #navgrid {
+        color: white;
+      }
+    }
+  }
+  
+  .marketing {
+    &:hover {
+      background-color: #2ecc71;
+  
+      #navsig {
+        color: white;
+      }
+    }
+  }
+  
+  .cyber {
+    &:hover {
+      background-color: #f62459;
+  
+      #navshield {
+        color: white;
+      }
+    }
+  }

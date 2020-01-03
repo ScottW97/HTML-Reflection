@@ -1,0 +1,79 @@
+/* ================================= 
+  Navbar
+==================================== */
+
+.navmenu {
+    background: #333645;
+    border: #0077b5;
+    border-bottom: 1px #999AA2 solid;
+    
+  
+    h3 {
+      font-size: 1.125rem;
+      color: white;
+      margin-top: 0.25rem;
+    }
+  
+    p {
+      font-size: 0.625rem;
+      margin-bottom: 0;
+      color: white;
+      margin-top: 0.5rem;
+      line-height: 0;
+    }
+  }
+  
+  .nmborder {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #bdr {
+    display: none;
+    border-left: 1px solid #484A58;
+    border-right: 1px solid #262834;
+  }
+  
+  .navb {
+    width: 195px;
+    text-align: center;
+    border-color: #333645 #484A58 #333645 #262834;
+    border-style: solid;
+    border-width: 1px;
+  
+    &:hover {
+  
+      a {
+        color: white;
+        text-decoration: none;
+      }
+  
+      .hovermenu {
+        display: flex;
+        z-index: 2;
+        position: absolute;
+        text-decoration: none;
+        color: white;
+        margin: 0 auto;
+        padding: 0.75rem 0 0.75rem;
+        width: calc(100vw - (100vw - 100%));
+        left: 0;
+        justify-content: center;
+        li {
+          font-size: 0.8rem;
+        }
+      }
+    }
+  }
+  
+  .navbutton {
+    display: block;
+    padding: 1.25rem 0 0.45rem 0;
+  }
+  
+  .menub {
+    font-size: 1.25rem;
+    padding-bottom: 0.5rem;
+  }

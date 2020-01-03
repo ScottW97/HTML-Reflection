@@ -1,0 +1,81 @@
+/* ================================= 
+  Logo Sets
+==================================== */
+
+.logos {
+    display: none;
+  }
+  
+  .logobox {
+    box-shadow: inset 0 4px 48px -15px #CCC;
+  }
+  
+  .colour {
+    display: none;
+  }
+  
+  .imgset:hover>.colour {
+    display: block;
+  }
+  
+  .imgset:hover>.gs {
+    display: none;
+  }
+  
+  .imgdisplay:hover>.colour {
+    display: block;
+  }
+  
+  .imgdisplay:hover>.gs {
+    display: none;
+  }
+  
+  #twosplit {
+    display: none;
+  }
+  
+  .nmtooltip {
+    display: none;
+    position: absolute;
+    background: #333645;
+    color: white;
+    text-align: center;
+    z-index: 1;
+    padding: 1.5rem;
+    width: 260px;
+  
+    p {
+      margin: 0;
+      font-size: 0.85rem;
+    }
+  
+    h1 {
+      margin: 0;
+      padding: 0;
+      line-height: 0.8;
+    }
+  
+    h5 {
+      font-size: 1.125rem;
+      margin: 0;
+      padding: 0;
+      line-height: 0.8;
+    }
+  }
+  
+  .square {
+    margin-top: -0.25rem;
+    margin-left: 4.875rem;
+    height: 3.5rem;
+    width: 3.5rem;
+    z-index: -1;
+    background: #333645;
+    position: absolute;
+    transform: rotate(45deg);
+  }
+  
+  .imgset:hover {
+    .nmtooltip {
+      display: inline;
+    }
+  }

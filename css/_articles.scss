@@ -1,0 +1,131 @@
+/* ================================= 
+  Articles
+==================================== */
+
+.nmacard {
+    margin: 1.75rem 1rem 1.75rem 1rem;
+    border: 1px #CCC solid;
+    border-radius: 3px;
+    box-shadow: 0px 0px 32px 0px #E0E0E0;
+    position: relative;
+  
+    h5 {
+      line-height: 1.6;
+      font-size: 1rem;
+      font-weight: bold;
+      margin: 1rem 0 1rem 0rem;
+      line-height: 1.6rem;
+    }
+  
+    .absolnm {
+      position: absolute;
+      padding: 0.25rem 0.625rem 0.25rem 0.625rem;
+      color: white;
+      right: 0;
+      top: 0.5rem;
+      z-index: 1;
+  
+      a {
+        color: white;
+      }
+  
+      h6 {
+        font-weight: bold;
+        font-size: 0.75rem;
+        margin: 0;
+        padding: 0;
+      }
+    }
+  
+    .read-more {
+      color: white;
+      text-align: center;
+      padding: 0.625rem;
+      width: 125px;
+      font-size: 1.1rem;
+      border-radius: 2.5px;
+      letter-spacing: 0.0375rem;
+    }
+  }
+  
+  .atext {
+    font-size: 0.85rem;
+    color: #666;
+  }
+  
+  .articleimg {
+    width: 100%;
+    transition: .2s;
+  }
+  
+  .nmover {
+    overflow: hidden;
+  
+    &:hover {
+      .articleimg {
+        opacity: 0.75;
+        transform: scale(1.1, 1.1);
+      }
+    }
+  }
+  
+  .articleset {
+    padding: 1.5rem 0rem 1.5rem 0rem;
+    box-shadow: inset 0 32px 48px -44px #CCC;
+  }
+  
+  .agroup {
+    justify-content: space-around;
+    margin: 0 auto;
+  }
+  
+  .artcont {
+    display: flex;
+  }
+  
+  .nmdivider {
+    border-bottom: 1px solid #CCC;
+    width: 82.5%;
+    margin: auto;
+  }
+  
+  .nmtts {
+    transition: .2s;
+    cursor: default;
+    opacity: 0;
+    position: absolute;
+    background: #474A57;
+    color: white;
+    text-align: center;
+    z-index: 1;
+    padding: 0.5rem 1.5rem 0 1.5rem;
+    width: 200px;
+    height: 52px;
+    margin-top: -4rem;
+    margin-left:-5rem;
+  
+    p {
+      margin: 0;
+      font-size: 0.75rem;
+    }
+  }
+  
+  .squares {
+    margin-top: 0.15rem;
+    margin-left: 4.5rem;
+    height: 0.5rem;
+    width: 0.5rem;
+    z-index: -1;
+    background: #474A57;
+    position: absolute;
+    transform: rotate(45deg);
+  }
+  
+  .absolnm:hover {
+    .nmtts {
+      width: 200px;
+      height: 52px;
+      opacity: 1;
+    }
+  }
+  
