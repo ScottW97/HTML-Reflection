@@ -137,7 +137,7 @@ li span {
   font-size: 1.215rem;
 }
 
-.fa-bars {
+.nmsideclick {
   font-size: 1.875rem;
 }
 
@@ -271,51 +271,51 @@ li span {
 /* ================================= 
   Navbar Hover Colours
 ==================================== */
-.webdesign:hover {
+.nmborder .webdesign:hover {
   background-color: #926fb1;
 }
 
-.webdesign:hover #navcode {
+.nmborder .webdesign:hover #navcode {
   color: white;
 }
 
-.itsupport:hover {
+.nmborder .itsupport:hover {
   background-color: #4183d7;
 }
 
-.itsupport:hover #navdesk {
+.nmborder .itsupport:hover #navdesk {
   color: white;
 }
 
-.telecoms:hover {
+.nmborder .telecoms:hover {
   background-color: #d64541;
 }
 
-.telecoms:hover #navphone {
+.nmborder .telecoms:hover #navphone {
   color: white;
 }
 
-.bespoke:hover {
+.nmborder .bespoke:hover {
   background-color: #67809f;
 }
 
-.bespoke:hover #navgrid {
+.nmborder .bespoke:hover #navgrid {
   color: white;
 }
 
-.marketing:hover {
+.nmborder .marketing:hover {
   background-color: #2ecc71;
 }
 
-.marketing:hover #navsig {
+.nmborder .marketing:hover #navsig {
   color: white;
 }
 
-.cyber:hover {
+.nmborder .cyber:hover {
   background-color: #f62459;
 }
 
-.cyber:hover #navshield {
+.nmborder .cyber:hover #navshield {
   color: white;
 }
 
@@ -394,31 +394,37 @@ ul .dashnm:before {
 .bannerweb {
   background: -webkit-gradient(linear, left top, right top, from(black), color-stop(162.5%, transparent)), url("/Images/web-design.jpg") no-repeat center;
   background: linear-gradient(90deg, black, transparent 162.5%), url("/Images/web-design.jpg") no-repeat center;
+  background-size: cover;
 }
 
 .bannerit {
   background: -webkit-gradient(linear, left top, right top, from(black), color-stop(162.5%, transparent)), url("/Images/it-support.jpg") no-repeat center;
   background: linear-gradient(90deg, black, transparent 162.5%), url("/Images/it-support.jpg") no-repeat center;
+  background-size: cover;
 }
 
 .bannertele {
   background: -webkit-gradient(linear, left top, right top, from(black), color-stop(162.5%, transparent)), url("/Images/telecoms-services.jpg") no-repeat center;
   background: linear-gradient(90deg, black, transparent 162.5%), url("/Images/telecoms-services.jpg") no-repeat center;
+  background-size: cover;
 }
 
 .bannerbesp {
   background: -webkit-gradient(linear, left top, right top, from(black), color-stop(162.5%, transparent)), url("/Images/bespoke-software.jpg") no-repeat center;
   background: linear-gradient(90deg, black, transparent 162.5%), url("/Images/bespoke-software.jpg") no-repeat center;
+  background-size: cover;
 }
 
 .bannerdigi {
   background: -webkit-gradient(linear, left top, right top, from(black), color-stop(162.5%, transparent)), url("/Images/digital-marketing.jpg") no-repeat center;
   background: linear-gradient(90deg, black, transparent 162.5%), url("/Images/digital-marketing.jpg") no-repeat center;
+  background-size: cover;
 }
 
 .bannercyber {
   background: -webkit-gradient(linear, left top, right top, from(black), color-stop(162.5%, transparent)), url("/Images/cyber-security.jpg") no-repeat center;
   background: linear-gradient(90deg, black, transparent 162.5%), url("/Images/cyber-security.jpg") no-repeat center;
+  background-size: cover;
 }
 
 @media (max-width: 465px) {
@@ -494,6 +500,169 @@ ul .dashnm:before {
 
 .bcontainer {
   padding-top: 31vh;
+}
+
+#sidebar {
+  height: 100%;
+  width: 258px;
+  position: fixed;
+  z-index: -1;
+  top: 0;
+  right: 0;
+  background-color: #333645;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+#sidebar .navb {
+  width: auto;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  border: 1px solid #484A58;
+  border-radius: 3.5px;
+}
+
+#sidebar .navb:hover {
+  background-color: #3D404E;
+}
+
+#sidebar .navb p {
+  font-size: 0.625rem;
+  margin-bottom: 0;
+}
+
+#sidebar .navb h3 {
+  font-size: 1.125rem;
+  color: white;
+}
+
+#sidebar h2 {
+  color: white;
+  display: block;
+  padding-left: 1.25rem;
+  border-top: 1px solid #484A58;
+  border-bottom: 1px solid #1C1E26;
+  line-height: 58px;
+  height: 58px;
+  margin: 0;
+  font-size: 1rem;
+}
+
+#sidebar ul {
+  padding: 0;
+  border-radius: 5px;
+  margin: 0;
+  background: #262834;
+}
+
+#sidebar li {
+  line-height: 48px;
+  min-height: 48px;
+  margin: 0;
+}
+
+#sidebar a {
+  color: white;
+}
+
+#sidebar a:hover {
+  text-decoration: none;
+}
+
+.fa-angle-double-right {
+  font-size: 0.75rem;
+  top: 50%;
+}
+
+#bgcolor {
+  background-color: black;
+  color: black;
+  overflow: visible;
+}
+
+#pagedim {
+  color: black;
+  -webkit-transition: opacity 0.25s;
+  transition: opacity 0.25s;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  z-index: 2;
+  background-color: white;
+}
+
+#bdrv {
+  border-top: 1px solid #262834;
+  border-bottom: 1px solid #484A58;
+}
+
+#bdrv li {
+  font-size: 0.9rem;
+  border-top: 1px solid #31333E;
+  border-bottom: 1px solid #1C1E26;
+  padding-left: 1.25rem;
+}
+
+#bdrv li:before {
+  content: "\f101";
+  /* FontAwesome Unicode */
+  font-family: FontAwesome;
+  display: inline-block;
+  width: 1.25rem;
+  /* same as padding-left set on li */
+  font-size: 0.5rem;
+}
+
+.sidehover:hover h2 {
+  background-color: #3D404E;
+}
+
+.block {
+  width: 216px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.block:hover .navb {
+  background-color: #3D404E;
+}
+
+.navborder {
+  margin: 20px 0;
+  border: 1px solid #1C1E26;
+}
+
+.bordertb li {
+  border-top: 1px solid #31333E;
+  border-bottom: 1px solid #1C1E26;
+}
+
+.bordert li {
+  border-top: 1px solid #31333E;
+}
+
+.borderb li {
+  border-bottom: 1px solid #1C1E26;
+}
+
+.sptsidebar {
+  display: block;
+}
+
+#bodyidmoved {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  -webkit-transform: translate(-258px);
+          transform: translate(-258px);
+  cursor: pointer;
+}
+
+#bodyid {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  -webkit-transform: translate(0px);
+          transform: translate(0px);
+  cursor: default;
 }
 
 /* ================================= 
@@ -1490,6 +1659,20 @@ ul .dashnm:before {
     BREAK POINT TWO
   ==================================== */
 @media (min-width: 992px) {
+  #bodyidmoved {
+    -webkit-transform: translate(-350px);
+            transform: translate(-350px);
+  }
+  #sidebar {
+    height: 100%;
+    width: 350px;
+  }
+  .sptsidebar {
+    display: none;
+  }
+  .mobmenu {
+    display: none;
+  }
   .maintext-bg {
     height: 35rem;
     background-image: url("/Images/branded.png");
@@ -1637,7 +1820,7 @@ ul .dashnm:before {
 
 /* ================================= 
     BREAK POINT THREE
-  ==================================== */
+==================================== */
 @media (min-width: 1260px) {
   .main-header {
     width: 1200px;
@@ -1805,8 +1988,8 @@ ul .dashnm:before {
 }
 
 /* ================================= 
-    MAX WIDTH QUERIES
-  ==================================== */
+  MAX WIDTH QUERIES
+==================================== */
 @media (max-width: 602px) {
   #logo {
     width: 71.5%;

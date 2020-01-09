@@ -1,0 +1,178 @@
+/* ================================= 
+  BREAK POINT ONE
+==================================== */
+
+@media (min-width: 768px) {
+    #phoneicon {
+        display: none;
+    }
+
+    .logos {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        width: 700px;
+        margin: 0 auto;
+        padding: 3.05rem 0 3.5rem 0;
+
+        .imgdisplay {
+        img {
+            height: 3.25rem;
+        }
+        }
+
+        .imgset {
+        img {
+            height: 3rem;
+        }
+        }
+    }
+
+    .nmacard {
+        margin: auto;
+        max-width: 337px;
+    }
+
+    .agroup {
+        display: flex;
+        justify-content: space-between;
+        width: 700px;
+    }
+
+    .articleset {
+        padding: 3rem 0rem 3rem 0rem;
+        box-shadow: inset 0 32px 48px -44px #CCC;
+    }
+
+    .nmlinks {
+        display: flex;
+        margin: 0 auto;
+        justify-content: space-between;
+        width: 650px;
+    }
+
+    #acard3 {
+        display: none;
+    }
+
+    #acard2 {
+        h5 {
+        margin-bottom: 2.55rem;
+        }
+    }
+
+    .artcont {
+        display: flex;
+        width: 750px;
+        margin: 0 auto;
+        justify-content: left;
+    }
+
+    .nmcontainer {
+        width: 750px;
+        margin: 0 auto;
+        padding: 2.5rem 2rem 3.5rem 1rem;
+    }
+
+    #cardset1 {
+        margin: auto;
+        justify-content: center;
+        padding: 3rem 0rem 2rem 0rem;
+        width: 737.5px;
+        display: flex;
+
+        .nmcard {
+        margin: 0 1rem 0 1rem;
+        max-width: 350px;
+        }
+
+        .cardtext {
+        font-size: 0.85rem;
+        margin-right: 1.75rem;
+        margin-left: 1.75rem;
+        }
+    }
+
+    #cardset3 {
+        margin: auto;
+        justify-content: center;
+        padding: 0rem 0rem 2rem 0rem;
+        width: 737.5px;
+        display: flex;
+
+        .nmcard {
+        margin: 0 1rem 0 1rem;
+        max-width: 350px;
+        }
+
+        .cardtext {
+        margin-right: 1.75rem;
+        margin-left: 1.75rem;
+        }
+    }
+
+    #cardset4 {
+        margin: auto;
+        justify-content: center;
+        padding: 0rem 0rem 3rem 0rem;
+        width: 737.5px;
+        display: flex;
+
+        .nmcard {
+        margin: 0 1rem 0 1rem;
+        max-width: 350px;
+        }
+
+        .cardtext {
+        font-size: 0.85rem;
+        margin-right: 1.75rem;
+        margin-left: 1.75rem;
+        }
+
+        #cybercard1 {
+        p {
+            margin-bottom: 2.3rem;
+        }
+        }
+    }
+
+    .one {
+        display: none;
+    }
+
+    .socialmedianm {
+        width: 10rem;
+    }
+
+    #twosplit {
+        display: inline-flex;
+    }
+
+    .nmlinks {
+        width: 735px;
+    }
+
+    .splitspace {
+        margin-right: 10rem;
+    }
+
+    #btt {
+        margin-top: -11.55rem;
+        margin-left: -4rem;
+    }
+
+    #cgbtt {
+        margin-top: -14.2rem;
+        margin-left: -1.75rem;
+    }
+
+    #bedtt {
+        margin-top: -11.55rem;
+        margin-left: -6.375rem;
+    }
+
+    #ndtt {
+        margin-top: -14.2rem;
+        margin-left: -1.25rem;
+    }
+}

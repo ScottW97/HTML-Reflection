@@ -31,31 +31,37 @@
   .bannerweb {
     background: linear-gradient(90deg, black, transparent 162.5%),
       url('/Images/web-design.jpg') no-repeat center;
+    background-size: cover;
   }
   
   .bannerit {
     background: linear-gradient(90deg, black, transparent 162.5%),
       url('/Images/it-support.jpg') no-repeat center;
+    background-size: cover;
   }
   
   .bannertele {
     background: linear-gradient(90deg, black, transparent 162.5%),
       url('/Images/telecoms-services.jpg') no-repeat center;
+    background-size: cover;
   }
   
   .bannerbesp {
     background: linear-gradient(90deg, black, transparent 162.5%),
       url('/Images/bespoke-software.jpg') no-repeat center;
+    background-size: cover;
   }
   
   .bannerdigi {
     background: linear-gradient(90deg, black, transparent 162.5%),
       url('/Images/digital-marketing.jpg') no-repeat center;
+    background-size: cover;
   }
   
   .bannercyber {
     background: linear-gradient(90deg, black, transparent 162.5%),
       url('/Images/cyber-security.jpg') no-repeat center;
+    background-size: cover;
   }
   
   @media (max-width: 465px) { //For Mobile L

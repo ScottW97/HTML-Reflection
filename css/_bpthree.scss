@@ -1,0 +1,207 @@
+/* ================================= 
+    BREAK POINT THREE
+==================================== */
+  
+@media (min-width: 1260px) {
+    .main-header {
+        width: 1200px;
+        margin: 0 auto;
+    }
+
+    .name {
+        float: left;
+    }
+
+    ul {
+        list-style: none;
+
+        .dashnm:before {
+        content: '-';
+        padding-left: 2.25rem;
+        }
+    }
+
+    li span {
+        margin-left: 2.25rem;
+    }
+
+    .navb {
+        width: 195px; 
+
+        &:hover {
+        a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .hovermenu {
+            display: flex;
+            position: absolute;
+            text-decoration: none;
+            color: white;
+            margin: 0 auto;
+            padding: 0.65rem 0 0.65rem;
+            width: 100%;
+            left: 0;
+            justify-content: center;
+
+            li {
+            font-size: 1rem;
+            }
+        }
+        }
+    }
+
+    .banner {
+        padding-top: 15.75rem;
+    }
+
+    .bcontainer {
+        width: 1170px;
+        margin: auto;
+    }
+
+    #cardset1 {
+        padding: 3rem 0rem 0rem 0rem;
+        width: 1200px;
+
+        .nmcard {
+        max-width: 572.5px;
+        }
+
+        .read-more {
+        margin-left: 13.5rem;
+        margin-right: 13.5rem;
+        }
+    }
+
+    #cardset2 {
+        margin: auto;
+        justify-content: center;
+        display: flex;
+        padding-top: 2rem;
+        padding-bottom: 3rem;
+        width: 1200px;
+
+        .cardtext {
+        font-size: 0.85rem;
+        margin-right: 1.5rem;
+        margin-left: 1.5rem;
+        }
+
+        .nmcard {
+        margin: 0 1.125rem 0 1.125rem;
+        max-width: 267.5px;
+        }
+
+        .read-more {
+        color: white;
+        width: 125px;
+        margin: auto;
+        margin-bottom: 2rem;
+        padding: 0.625rem;
+        font-size: 1.1rem;
+        border-radius: 2.5px;
+        letter-spacing: 0.0375rem;
+        }
+    }
+
+    #cardset3 {
+        display: none;
+    }
+
+    #cardset4 {
+        display: none;
+    }
+
+    .nmcontainer {
+        width: 1175px;
+        margin: 0 auto;
+        padding: 2.5rem 38.75rem 0.5rem 0rem;
+    }
+
+    .maintext-bg {
+        height: 35rem;
+    }
+
+    #acard3 {
+        display: flex;
+    }
+
+    .nmacard {
+        max-width: 370px;
+        min-height: 0;
+    }
+
+    .agroup {
+        width: 1200px;
+    }
+
+    #acard1 {
+        h5 {
+        margin-bottom: 1.1rem;
+        }
+    }
+
+    #acard2 {
+        h5 {
+        margin-bottom: 2.55rem;
+        }
+    }
+
+    .artcont {
+        width: 1200px;
+    }
+
+    .nmlinks {
+        width: 1170px;
+    }
+
+    .socialmedianm {
+        width: 7.25rem;
+    }
+
+    .one {
+        display: inline-block;
+    }
+
+    #twosplit {
+        display: none;
+    }
+
+    .logos {
+        width: 1170px;
+
+        .imgdisplay {
+        img {
+            height: initial;
+        }
+        }
+
+        .imgset {
+        img {
+            height: initial;
+        }
+        }
+    }
+
+    #btt {
+        margin-top: -11.55rem;
+        margin-left: -2.25rem;
+    }
+
+    #cgbtt {
+        margin-top: -14.2rem;
+        margin-left: 1rem;
+    }
+
+    #bedtt {
+        margin-top: -11.55rem;
+        margin-left: -5.5rem;
+    }
+
+    #ndtt {
+        margin-top: -14.2rem;
+        margin-left: 2rem;
+    }
+}
