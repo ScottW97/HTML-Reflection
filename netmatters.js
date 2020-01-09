@@ -4,7 +4,7 @@
 		request.onreadystatechange = function() {
 			if (this.readyState == 4 && this.status == 200) {
 				var data = JSON.parse(request.responseText);
-				var eu_country_codes = ['AL','AD','AM','AT','BY','BE','BA','BG','CH','CY','CZ','DE','DK','EE','ES','FO','FI','FR','GB','GE','GI','GR','HU','HR','IE','IS','IT','LT','LU','LV','MC','MK','MT','NO','NL','PO','PT','RO','RU','SE','SI','SK','SM','TR','UA','VA'];
+				var eu_country_codes = ['AL', 'AD', 'AM', 'AT', 'BY', 'BE', 'BA', 'BG', 'CH', 'CY', 'CZ', 'DE', 'DK', 'EE', 'ES', 'FO', 'FI', 'FR', 'GB', 'GE', 'GI', 'GR', 'HU', 'HR', 'IE', 'IS', 'IT', 'LT', 'LU', 'LV', 'MC', 'MK', 'MT', 'NO', 'NL', 'PO', 'PT', 'RO', 'RU', 'SE', 'SI', 'SK', 'SM', 'TR', 'UA', 'VA'];
 				if (eu_country_codes.indexOf(data.countryCode) != -1) {
 					document.body.innerHTML += '\
 					<div class="cookieconsent" style="position:fixed;padding:20px;left:0;bottom:0;background-color:#000;color:#FFF;text-align:center;width:100%;z-index:99999;">\
@@ -26,7 +26,6 @@
 })();
 
 function openSlideMenu(){
-	var mq = window.matchMedia('all and (max-width: 992px)');
 	document.getElementById("bodyid").id = "bodyidmoved";
 	document.getElementById('pagedim').style.opacity = '0.5';
 	document.getElementById('menuclick').innerHTML = '<button id="menubutton"><i class="fas fa-times nmsideclick"></i><br>MENU</button>';

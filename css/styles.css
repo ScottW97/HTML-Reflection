@@ -244,27 +244,27 @@ li span {
 /* ================================= 
   Navbar Colours
 ==================================== */
-#navcode {
+.navcode {
   color: #926fb1;
 }
 
-#navdesk {
+.navdesk {
   color: #4183D7;
 }
 
-#navphone {
+.navphone {
   color: #d64541;
 }
 
-#navgrid {
+.navgrid {
   color: #67809f;
 }
 
-#navsig {
+.navsig {
   color: #2ecc71;
 }
 
-#navshield {
+.navshield {
   color: #f63459;
 }
 
@@ -275,7 +275,7 @@ li span {
   background-color: #926fb1;
 }
 
-.nmborder .webdesign:hover #navcode {
+.nmborder .webdesign:hover .navcode {
   color: white;
 }
 
@@ -283,7 +283,7 @@ li span {
   background-color: #4183d7;
 }
 
-.nmborder .itsupport:hover #navdesk {
+.nmborder .itsupport:hover .navdesk {
   color: white;
 }
 
@@ -291,7 +291,7 @@ li span {
   background-color: #d64541;
 }
 
-.nmborder .telecoms:hover #navphone {
+.nmborder .telecoms:hover .navphone {
   color: white;
 }
 
@@ -299,7 +299,7 @@ li span {
   background-color: #67809f;
 }
 
-.nmborder .bespoke:hover #navgrid {
+.nmborder .bespoke:hover .navgrid {
   color: white;
 }
 
@@ -307,7 +307,7 @@ li span {
   background-color: #2ecc71;
 }
 
-.nmborder .marketing:hover #navsig {
+.nmborder .marketing:hover .navsig {
   color: white;
 }
 
@@ -315,7 +315,7 @@ li span {
   background-color: #f62459;
 }
 
-.nmborder .cyber:hover #navshield {
+.nmborder .cyber:hover .navshield {
   color: white;
 }
 
