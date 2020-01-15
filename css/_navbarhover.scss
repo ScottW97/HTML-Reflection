@@ -4,7 +4,7 @@
 .nmborder {
   .webdesign {
     &:hover {
-      background-color: #926fb1;
+      background-color: $light-web;
   
       .navcode {
         color: white;
@@ -14,7 +14,7 @@
   
   .itsupport {
     &:hover {
-      background-color: #4183d7;
+      background-color: $light-it;
   
       .navdesk {
         color: white;
@@ -24,7 +24,7 @@
   
   .telecoms {
     &:hover {
-      background-color: #d64541;
+      background-color: $light-tele;
   
       .navphone {
         color: white;
@@ -34,7 +34,7 @@
   
   .bespoke {
     &:hover {
-      background-color: #67809f;
+      background-color: $light-besp;
   
       .navgrid {
         color: white;
@@ -44,7 +44,7 @@
   
   .marketing {
     &:hover {
-      background-color: #2ecc71;
+      background-color: $light-digi;
   
       .navsig {
         color: white;
@@ -54,7 +54,7 @@
   
   .cyber {
     &:hover {
-      background-color: #f62459;
+      background-color: $light-cyber;
   
       .navshield {
         color: white;

@@ -8,129 +8,88 @@
 }
 
 .banner {
-    height: calc(100vh - 111px);
-    font-size: 1.375rem;
-    background-size: cover;
+  height: calc(100vh - 111px);
+  font-size: 1.375rem;
+  background-size: cover;
+  color: white;
+  text-align: center;
+  vertical-align: middle;
+
+  h2 {
     color: white;
-    text-align: center;
-    vertical-align: middle;
-  
-    h1 {
-      font-size: 3rem;
-      padding-bottom: 1rem;
-    }
-  
+    font-size: 3rem;
+    padding-bottom: 1rem;
+  }
+
+  p {
+    margin: auto;
+    margin-bottom: 2.5em;
+    width: 450px;
+    padding: 0;
+  }
+}
+
+.bannerweb {
+  background: linear-gradient(90deg, black, transparent 162.5%),
+    url('/Images/web-design.jpg') no-repeat center;
+  background-size: cover;
+}
+
+.bannerit {
+  background: linear-gradient(90deg, black, transparent 162.5%),
+    url('/Images/it-support.jpg') no-repeat center;
+  background-size: cover;
+}
+
+.bannertele {
+  background: linear-gradient(90deg, black, transparent 162.5%),
+    url('/Images/telecoms-services.jpg') no-repeat center;
+  background-size: cover;
+}
+
+.bannerbesp {
+  background: linear-gradient(90deg, black, transparent 162.5%),
+    url('/Images/bespoke-software.jpg') no-repeat center;
+  background-size: cover;
+}
+
+.bannerdigi {
+  background: linear-gradient(90deg, black, transparent 162.5%),
+    url('/Images/digital-marketing.jpg') no-repeat center;
+  background-size: cover;
+}
+
+.bannercyber {
+  background: linear-gradient(90deg, black, transparent 162.5%),
+    url('/Images/cyber-security.jpg') no-repeat center;
+  background-size: cover;
+}
+
+@media (max-width: 465px) { //For Mobile L
+  .banner {
     p {
-      margin: auto;
-      margin-bottom: 2.5em;
-      width: 450px;
-      padding: 0;
+      width: 80%;
     }
   }
-  
-  .bannerweb {
-    background: linear-gradient(90deg, black, transparent 162.5%),
-      url('/Images/web-design.jpg') no-repeat center;
-    background-size: cover;
-  }
-  
-  .bannerit {
-    background: linear-gradient(90deg, black, transparent 162.5%),
-      url('/Images/it-support.jpg') no-repeat center;
-    background-size: cover;
-  }
-  
-  .bannertele {
-    background: linear-gradient(90deg, black, transparent 162.5%),
-      url('/Images/telecoms-services.jpg') no-repeat center;
-    background-size: cover;
-  }
-  
-  .bannerbesp {
-    background: linear-gradient(90deg, black, transparent 162.5%),
-      url('/Images/bespoke-software.jpg') no-repeat center;
-    background-size: cover;
-  }
-  
-  .bannerdigi {
-    background: linear-gradient(90deg, black, transparent 162.5%),
-      url('/Images/digital-marketing.jpg') no-repeat center;
-    background-size: cover;
-  }
-  
-  .bannercyber {
-    background: linear-gradient(90deg, black, transparent 162.5%),
-      url('/Images/cyber-security.jpg') no-repeat center;
-    background-size: cover;
-  }
-  
-  @media (max-width: 465px) { //For Mobile L
-    .banner {
-      p {
-        width: 80%;
-      }
-    }
-  }
-  
-  .bannerb {
+}
+
+.bannerb {
+  color: white;
+  padding: 1rem;
+  font-size: 1.25rem;
+  border-radius: 2.5px;
+  letter-spacing: 0.0375rem;
+
+  &:hover {
     color: white;
-    padding: 1rem;
-    font-size: 1.25rem;
-    border-radius: 2.5px;
-    letter-spacing: 0.0375rem;
-  
-    &:hover {
-      color: white;
-      text-decoration: none;
-    }
-  
-    .arrowb {
-      margin-left: 1rem;
-    }
-  }
-  
-  .web-b {
-    background-color: #926fb1;
-    &:hover {
-      background-color: #79539a;
-    }
-  }
-  
-  .it-b {
-    background-color: #4183d7;
-    &:hover {
-      background-color: #2a6ec6;
-    }
+    text-decoration: none;
   }
 
-  .tele-b {
-    background-color: #d64541;
-    &:hover {
-      background-color: #bc2c28;
-    }
+  .arrowb {
+    margin-left: 1rem;
   }
-  
-  .besp-b {
-    background-color: #67809f;
-    &:hover {
-      background-color: #566c88;
-    }
-  }
+}
 
-  .digi-b {
-    background-color: #2ecc71;
-    &:hover {
-      background-color: #26ab5f;
-    }
-  }
-  
-  .cyber-b {
-    background-color: #f62459;
-    &:hover {
-      background-color: #e80a42;
-    }
-  }
-  
-  .bcontainer {
-    padding-top: 31vh;
-  }
+.bcontainer {
+  padding-top: 31vh;
+}

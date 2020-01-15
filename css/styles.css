@@ -1,24 +1,19 @@
 /* ================================= 
   Imports
 ==================================== */
-@font-face {
-  src: url("https://fonts.googleapis.com/css?family=Poppins&display=swap");
-  font-family: 'Poppins', sans-serif;
-}
-
 /* ================================= 
   Universal Attributes
 ==================================== */
-html {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-}
-
 *,
 *:before,
 *:after {
   -webkit-box-sizing: inherit;
           box-sizing: inherit;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 body {
@@ -194,13 +189,13 @@ li span {
 #bdr {
   display: none;
   border-left: 1px solid #484A58;
-  border-right: 1px solid #262834;
+  border-right: 1px solid #484A58;
 }
 
 .navb {
   width: 195px;
   text-align: center;
-  border-color: #333645 #484A58 #333645 #262834;
+  border-color: #333645 #484A58 #333645 #484A58;
   border-style: solid;
   border-width: 1px;
 }
@@ -280,7 +275,7 @@ li span {
 }
 
 .nmborder .itsupport:hover {
-  background-color: #4183d7;
+  background-color: #4183D7;
 }
 
 .nmborder .itsupport:hover .navdesk {
@@ -312,7 +307,7 @@ li span {
 }
 
 .nmborder .cyber:hover {
-  background-color: #f62459;
+  background-color: #f63459;
 }
 
 .nmborder .cyber:hover .navshield {
@@ -379,7 +374,8 @@ ul .dashnm:before {
   vertical-align: middle;
 }
 
-.banner h1 {
+.banner h2 {
+  color: white;
   font-size: 3rem;
   padding-bottom: 1rem;
 }
@@ -450,6 +446,10 @@ ul .dashnm:before {
   margin-left: 1rem;
 }
 
+.bcontainer {
+  padding-top: 31vh;
+}
+
 .web-b {
   background-color: #926fb1;
 }
@@ -459,11 +459,11 @@ ul .dashnm:before {
 }
 
 .it-b {
-  background-color: #4183d7;
+  background-color: #4183D7;
 }
 
 .it-b:hover {
-  background-color: #2a6ec6;
+  background-color: #2A6EC6;
 }
 
 .tele-b {
@@ -471,7 +471,7 @@ ul .dashnm:before {
 }
 
 .tele-b:hover {
-  background-color: #bc2c28;
+  background-color: #c42e2a;
 }
 
 .besp-b {
@@ -479,7 +479,7 @@ ul .dashnm:before {
 }
 
 .besp-b:hover {
-  background-color: #566c88;
+  background-color: #666;
 }
 
 .digi-b {
@@ -487,19 +487,15 @@ ul .dashnm:before {
 }
 
 .digi-b:hover {
-  background-color: #26ab5f;
+  background-color: #25a25a;
 }
 
 .cyber-b {
-  background-color: #f62459;
+  background-color: #f63459;
 }
 
 .cyber-b:hover {
-  background-color: #e80a42;
-}
-
-.bcontainer {
-  padding-top: 31vh;
+  background-color: #de093f;
 }
 
 #sidebar {
@@ -673,11 +669,14 @@ ul .dashnm:before {
   color: white;
   height: 3.75rem;
   width: 3.75rem;
-  margin-top: 2rem;
-  margin-bottom: 1rem;
   border: none;
   -ms-flex-line-pack: center;
       align-content: center;
+  margin: 2rem auto 1rem auto;
+}
+
+.icircle .fas {
+  line-height: 3.75rem;
 }
 
 #cardset1 {
@@ -723,7 +722,8 @@ ul .dashnm:before {
           box-shadow: 0px 0px 32px 0px #E0E0E0;
 }
 
-.nmcard h1 {
+.nmcard h2 {
+  font-size: 2.5rem;
   margin: 0;
   line-height: 2rem;
 }
@@ -1243,7 +1243,7 @@ ul .dashnm:before {
 }
 
 #acard2 .read-more {
-  background-color: #4183d7;
+  background-color: #4183D7;
 }
 
 #acard2 .read-more:hover {
@@ -1251,16 +1251,16 @@ ul .dashnm:before {
 }
 
 #acard2 h5 {
-  color: #4183d7;
+  color: #4183D7;
 }
 
 #acard2 a:hover {
-  -webkit-text-decoration-color: #4183d7;
-          text-decoration-color: #4183d7;
+  -webkit-text-decoration-color: #4183D7;
+          text-decoration-color: #4183D7;
 }
 
 #acard2 .absolnm {
-  background: #4183d7;
+  background: #4183D7;
 }
 
 #acard2 .absolnm:hover {
@@ -1363,18 +1363,6 @@ ul .dashnm:before {
           justify-content: center;
 }
 
-.socialmedianm {
-  width: 46.5%;
-  height: 3.375rem;
-  color: white;
-  font-size: 1.5625rem;
-  margin-top: 0.375rem;
-  margin-bottom: 1.625rem;
-  border-radius: 0;
-  letter-spacing: 0.0375rem;
-  background-color: #262834;
-}
-
 #contactnm {
   margin-bottom: 3rem;
 }
@@ -1386,6 +1374,24 @@ ul .dashnm:before {
 /* ================================= 
   Social Media Buttons
 ==================================== */
+.socialmedianm {
+  width: 46.5%;
+  height: 3.375rem;
+  color: white;
+  font-size: 1.5625rem;
+  margin-top: 0.375rem;
+  margin-bottom: 1.625rem;
+  border-radius: 0;
+  letter-spacing: 0.0375rem;
+  background-color: #262834;
+  padding: 0;
+  top: 50rem;
+}
+
+.socialmedianm i {
+  padding-top: 0.75rem;
+}
+
 .fbbutton {
   margin-right: 1.75rem;
 }
@@ -1400,6 +1406,11 @@ ul .dashnm:before {
 
 .libutton:hover {
   background-color: #0077b5;
+}
+
+.smlink {
+  display: block;
+  height: 100%;
 }
 
 /* ================================= 
@@ -1455,6 +1466,14 @@ ul .dashnm:before {
 }
 
 .nmtooltip h1 {
+  margin: 0;
+  padding: 0;
+  line-height: 0.8;
+}
+
+.nmtooltip h2 {
+  font-size: 2.5rem;
+  color: white;
   margin: 0;
   padding: 0;
   line-height: 0.8;

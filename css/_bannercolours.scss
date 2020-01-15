@@ -1,0 +1,41 @@
+.web-b {
+    background-color: $light-web;
+    &:hover {
+      background-color: $dark-web;
+    }
+  }
+  
+  .it-b {
+    background-color: $light-it;
+    &:hover {
+      background-color: $dark-it;
+    }
+  }
+  
+  .tele-b {
+    background-color: $light-tele;
+    &:hover {
+      background-color: $dark-tele;
+    }
+  }
+  
+  .besp-b {
+    background-color: $light-besp;
+    &:hover {
+      background-color: $dark-besp;
+    }
+  }
+  
+  .digi-b {
+    background-color: $light-digi;
+    &:hover {
+      background-color: $dark-digi;
+    }
+  }
+  
+  .cyber-b {
+    background-color: $light-cyber;
+    &:hover {
+      background-color: $dark-cyber;
+    }
+  }

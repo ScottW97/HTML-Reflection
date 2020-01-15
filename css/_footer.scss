@@ -3,49 +3,37 @@
 ==================================== */
 
 .links {
-    font-size: 0.875rem;
-    padding: 3rem 0 1.5rem;
-    background-color: #333645;
+  font-size: 0.875rem;
+  padding: 3rem 0 1.5rem;
+  background-color: $backgroundone;
+  color: white;
+  padding-left: 1rem;
+  padding-right: 1rem;
+
+  a {
     color: white;
-    padding-left: 1rem;
-    padding-right: 1rem;
-  
-    a {
-      color: white;
-    }
-  
-    h4 {
-      font-size: 1rem;
-      padding-bottom: 1rem;
-    }
-  
-    address {
-      margin-bottom: 1.25rem;
-    }
   }
-  
-  .linkblock {
-    vertical-align: text-top;
-    align-items: center;
-    justify-content: center;
+
+  h4 {
+    font-size: 1rem;
+    padding-bottom: 1rem;
   }
-  
-  .socialmedianm {
-    width: 46.5%;
-    height: 3.375rem;
-    color: white;
-    font-size: 1.5625rem;
-    margin-top: 0.375rem;
-    margin-bottom: 1.625rem;
-    border-radius: 0;
-    letter-spacing: 0.0375rem;
-    background-color: #262834;
+
+  address {
+    margin-bottom: 1.25rem;
   }
-  
-  #contactnm {
-    margin-bottom: 3rem;
-  }
-  
-  #aboutnm {
-    margin-bottom: 1.5rem;
-  }
+}
+
+.linkblock {
+  vertical-align: text-top;
+  align-items: center;
+  justify-content: center;
+}
+
+#contactnm {
+  margin-bottom: 3rem;
+}
+
+#aboutnm {
+  margin-bottom: 1.5rem;
+}

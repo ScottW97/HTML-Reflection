@@ -4,19 +4,19 @@
 
 #webcard {
     .read-more {
-      background-color: #926fb1;
+      background-color: $light-web;
     }
   
     &:hover {
-      background-color: #926fb1;
+      background-color: $light-web;
   
       .icircle {
-        color: #926fb1;
+        color: $light-web;
         background-color: white;
       }
   
       .read-more {
-        color: #926fb1;
+        color: $light-web;
         background-color: white;
       }
     }
@@ -24,19 +24,19 @@
   
   #itcard {
     .read-more {
-      background-color: #4183D7;
+      background-color: $light-it;
     }
   
     &:hover {
-      background-color: #4183D7;
+      background-color: $light-it;
   
       .icircle {
-        color: #4183D7;
+        color: $light-it;
         background-color: white;
       }
   
       .read-more {
-        color: #4183D7;
+        color: $light-it;
         background-color: white;
       }
     }
@@ -44,19 +44,19 @@
   
   #telcard {
     .read-more {
-      background-color: #d64541;
+      background-color: $light-tele;
     }
   
     &:hover {
-      background-color: #d64541;
+      background-color: $light-tele;
   
       .icircle {
-        color: #d64541;
+        color: $light-tele;
         background-color: white;
       }
   
       .read-more {
-        color: #d64541;
+        color: $light-tele;
         background-color: white;
       }
     }
@@ -64,19 +64,19 @@
   
   #telcard1 {
     .read-more {
-      background-color: #d64541;
+      background-color: $light-tele;
     }
   
     &:hover {
-      background-color: #d64541;
+      background-color: $light-tele;
   
       .icircle {
-        color: #d64541;
+        color: $light-tele;
         background-color: white;
       }
   
       .read-more {
-        color: #d64541;
+        color: $light-tele;
         background-color: white;
       }
     }
@@ -84,22 +84,22 @@
   
   #bescard {
     .read-more {
-      background-color: #67809f;
+      background-color: $light-besp;
     }
   
     &:hover {
-      background-color: #67809f;
+      background-color: $light-besp;
   
       .icircle {
-        color: #67809f;
+        color: $light-besp;
         background-color: white;
       }
   
       .read-more {
         p {
-          color: #67809f;
+          color: $light-besp;
         }
-        color: #67809f;
+        color: $light-besp;
         background-color: white;
       }
     }
@@ -107,22 +107,22 @@
   
   #bescard1 {
     .read-more {
-      background-color: #67809f;
+      background-color: $light-besp;
     }
   
     &:hover {
-      background-color: #67809f;
+      background-color: $light-besp;
   
       .icircle {
-        color: #67809f;
+        color: $light-besp;
         background-color: white;
       }
   
       .read-more {
         p {
-          color: #67809f;
+          color: $light-besp;
         }
-        color: #67809f;
+        color: $light-besp;
         background-color: white;
       }
     }
@@ -130,19 +130,19 @@
   
   #digcard {
     .read-more {
-      background-color: #2ecc71;
+      background-color: $light-digi;
     }
   
     &:hover {
-      background-color: #2ecc71;
+      background-color: $light-digi;
   
       .icircle {
-        color: #2ecc71;
+        color: $light-digi;
         background-color: white;
       }
   
       .read-more {
-        color: #2ecc71;
+        color: $light-digi;
         background-color: white;
       }
     }
@@ -150,19 +150,19 @@
   
   #digcard1 {
     .read-more {
-      background-color: #2ecc71;
+      background-color: $light-digi;
     }
   
     &:hover {
-      background-color: #2ecc71;
+      background-color: $light-digi;
   
       .icircle {
-        color: #2ecc71;
+        color: $light-digi;
         background-color: white;
       }
   
       .read-more {
-        color: #2ecc71;
+        color: $light-digi;
         background-color: white;
       }
     }
@@ -170,19 +170,19 @@
   
   #cybercard {
     .read-more {
-      background-color: #f63459;
+      background-color: $light-cyber;
     }
   
     &:hover {
-      background-color: #f63459;
+      background-color: $light-cyber;
   
       .icircle {
-        color: #f63459;
+        color: $light-cyber;
         background-color: white;
       }
   
       .read-more {
-        color: #f63459;
+        color: $light-cyber;
         background-color: white;
       }
     }
@@ -190,19 +190,19 @@
   
   #cybercard1 {
     .read-more {
-      background-color: #f63459;
+      background-color: $light-cyber;
     }
   
     &:hover {
-      background-color: #f63459;
+      background-color: $light-cyber;
   
       .icircle {
-        color: #f63459;
+        color: $light-cyber;
         background-color: white;
       }
   
       .read-more {
-        color: #f63459;
+        color: $light-cyber;
         background-color: white;
       }
     }

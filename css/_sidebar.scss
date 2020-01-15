@@ -5,16 +5,16 @@
     z-index: -1;
     top: 0;
     right: 0;
-    background-color: #333645;
+    background-color: $backgroundone;
     overflow-x: hidden;
     overflow-y: scroll;
     .navb {
         &:hover {
-            background-color: #3D404E;
+            background-color: $backgroundtwo;
           }
         width: auto;
         align-content: center;
-        border: 1px solid #484A58;
+        border: 1px solid $borderfour;
         border-radius: 3.5px;
         p {
             font-size: 0.625rem;
@@ -29,8 +29,8 @@
         color: white;
         display: block;
         padding-left: 1.25rem;
-        border-top: 1px solid #484A58;
-        border-bottom: 1px solid #1C1E26;
+        border-top: 1px solid $borderfour;
+        border-bottom: 1px solid $borderone;
         line-height: 58px;
         height: 58px;
         margin: 0;
@@ -40,7 +40,7 @@
         padding: 0;
         border-radius: 5px;
         margin: 0;
-        background: #262834;
+        background: $bordertwo;
     }
     li {
         line-height: 48px;
@@ -80,8 +80,8 @@
 #bdrv {
     li {
         font-size: 0.9rem;
-        border-top: 1px solid #31333E;
-        border-bottom: 1px solid #1C1E26;
+        border-top: 1px solid $borderthree;
+        border-bottom: 1px solid $borderone;
         padding-left: 1.25rem;
     }
     li:before {
@@ -91,13 +91,13 @@
         width: 1.25rem; /* same as padding-left set on li */
         font-size: 0.5rem;
     }
-    border-top: 1px solid #262834;
-    border-bottom: 1px solid #484A58;
+    border-top: 1px solid $bordertwo;
+    border-bottom: 1px solid $borderfour;
 }
 
 .sidehover:hover {
     h2 {
-        background-color: #3D404E;
+        background-color: $backgroundtwo;
     }
 }
 
@@ -107,32 +107,32 @@
     text-align: center;
     &:hover {
         .navb {
-            background-color: #3D404E;
+            background-color: $backgroundtwo;
         }
     }
 }
 
 .navborder {
     margin: 20px 0;
-    border: 1px solid #1C1E26;
+    border: 1px solid $borderone;
 }
 
 .bordertb {
     li {
-        border-top: 1px solid #31333E;
-        border-bottom: 1px solid #1C1E26;
+        border-top: 1px solid $borderthree;
+        border-bottom: 1px solid $borderone;
     } 
 }
 
 .bordert {
     li {
-        border-top: 1px solid #31333E;
+        border-top: 1px solid $borderthree;
     } 
 }
 
 .borderb {
     li {
-        border-bottom: 1px solid #1C1E26;
+        border-bottom: 1px solid $borderone;
     } 
 }
 

@@ -41,18 +41,18 @@
   }
   
   #supportbutton {
-    background-color: #4183D7;
+    background-color: $light-it;
   
     &:hover {
-      background-color: #2A6EC6;
+      background-color: $dark-it;
     }
   }
   
   #contactbutton {
-    background-color: #999AA2;
+    background-color: $light-contact;
   
     &:hover {
-      background-color: #84858F;
+      background-color: $dark-contact;
     }
   }
   
@@ -60,12 +60,12 @@
     border: none;
     padding: .3rem .95rem .2rem .95rem;
     margin-right: 15px;
-    background-color: #333645;
+    background-color: $backgroundone;
     color: white;
     font-size: 0.715rem;
   
     &:hover {
-      background-color: #22242E;
+      background-color: $backgroundhover;
     }
   }
   
@@ -85,7 +85,7 @@
     font-size: 2rem;
     margin-right: 1.5rem;
     a:hover {
-      color: #333645;
+      color: $backgroundone;
       
     }
   

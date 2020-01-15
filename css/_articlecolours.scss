@@ -4,78 +4,78 @@
 
 #acard1 {
   .read-more {
-    background-color: #d64541;
+    background-color: $light-tele;
 
     &:hover {
-      background-color: #c42e2a;
+      background-color: $dark-tele;
     }
   }
 
   h5 {
-    color: #d64541;
+    color: $light-tele;
   }
 
   a:hover {
-    text-decoration-color: #d64541;;
+    text-decoration-color: $light-tele;;
   }
 
   .absolnm {
-    background: #d64541;
+    background: $light-tele;
 
     &:hover {
-      background: #c42e2a;
+      background: $dark-tele;
     }
   }
 }
 
 #acard2 {
   .read-more {
-    background-color: #4183d7;
+    background-color: $light-it;
 
     &:hover {
-      background-color: #2A6EC6;
+      background-color: $dark-it;
     }
   }
 
   h5 {
-    color: #4183d7;
+    color: $light-it;
   }
 
   a:hover {
-    text-decoration-color: #4183d7;
+    text-decoration-color: $light-it;
   }
 
   .absolnm {
-    background: #4183d7;
+    background: $light-it;
 
     &:hover {
-      background: #2A6EC6;
+      background: $dark-it;
     }
   }
 }
 
 #acard3 {
   .read-more {
-    background-color: #926fb1;
+    background-color: $light-web;
 
     &:hover {
-      background-color: #79539a;
+      background-color: $dark-web;
     }
   }
 
   h5 {
-    color: #926fb1;
+    color: $light-web;
   }
 
   a:hover {
-    text-decoration-color: #926fb1;
+    text-decoration-color: $light-web;
   }
 
   .absolnm {
-    background: #926fb1;
+    background: $light-web;
 
     &:hover {
-      background: #79539a;
+      background: $dark-web;
     }
   }
 }
