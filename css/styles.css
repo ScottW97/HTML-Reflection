@@ -346,7 +346,7 @@ ul .dashnm:before {
 }
 
 #bespokelist {
-  background: #666;
+  background: #526681;
 }
 
 #marlist {
@@ -479,7 +479,7 @@ ul .dashnm:before {
 }
 
 .besp-b:hover {
-  background-color: #666;
+  background-color: #526681;
 }
 
 .digi-b {
@@ -558,6 +558,7 @@ ul .dashnm:before {
 }
 
 #sidebar a {
+  display: block;
   color: white;
 }
 
@@ -587,19 +588,17 @@ ul .dashnm:before {
   background-color: white;
 }
 
-#bdrv {
-  border-top: 1px solid #262834;
-  border-bottom: 1px solid #484A58;
+#bdrv a {
+  font-size: 0.9rem;
 }
 
-#bdrv li {
-  font-size: 0.9rem;
+#bdrv .nmarrow {
+  padding-left: 1.25rem;
   border-top: 1px solid #31333E;
   border-bottom: 1px solid #1C1E26;
-  padding-left: 1.25rem;
 }
 
-#bdrv li:before {
+#bdrv .nmarrow:before {
   content: "\f101";
   /* FontAwesome Unicode */
   font-family: FontAwesome;
@@ -628,16 +627,16 @@ ul .dashnm:before {
   border: 1px solid #1C1E26;
 }
 
-.bordertb li {
+.bordertb a {
   border-top: 1px solid #31333E;
   border-bottom: 1px solid #1C1E26;
 }
 
-.bordert li {
+.bordert a {
   border-top: 1px solid #31333E;
 }
 
-.borderb li {
+.borderb a {
   border-bottom: 1px solid #1C1E26;
 }
 
@@ -1131,7 +1130,7 @@ ul .dashnm:before {
 
 .atext {
   font-size: 0.85rem;
-  color: #666;
+  color: #526681;
 }
 
 .articleimg {
@@ -1319,7 +1318,7 @@ ul .dashnm:before {
   margin: 0;
   padding: 0%;
   line-height: 0;
-  color: #666;
+  color: #526681;
 }
 
 .afooter {
