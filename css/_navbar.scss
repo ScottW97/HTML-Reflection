@@ -5,8 +5,7 @@
 .navmenu {
   background: $backgroundone;
   border: #0077b5;
-  border-bottom: 1px #999AA2 solid;
-  
+  border-bottom: 1px #999aa2 solid;
 
   h3 {
     font-size: 1.125rem;
@@ -22,7 +21,7 @@
     line-height: 0;
   }
 }
-  
+
 .nmborder {
   display: flex;
   justify-content: center;
@@ -32,19 +31,18 @@
 
 #bdr {
   display: none;
-  border-left: 1px solid $borderfour;
+  border-left: 1px solid $bordertwo;
   border-right: 1px solid $borderfour;
 }
 
 .navb {
   width: 195px;
   text-align: center;
-  border-color: $backgroundone $borderfour $backgroundone $borderfour;
+  border-color: $backgroundone $bordertwo $backgroundone $borderfour;
   border-style: solid;
   border-width: 1px;
 
   &:hover {
-
     a {
       color: white;
       text-decoration: none;

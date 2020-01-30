@@ -1,168 +1,167 @@
 #sidebar {
-    height: 100%;
-    width: 258px;
-    position: fixed;
-    z-index: -1;
-    top: 0;
-    right: 0;
-    background-color: $backgroundone;
-    overflow-x: hidden;
-    overflow-y: scroll;
+  height: 100%;
+  width: 258px;
+  position: fixed;
+  z-index: -1;
+  top: 0;
+  right: 0;
+  background-color: $backgroundone;
+  overflow-x: hidden;
+  overflow-y: scroll;
 
-    .navb {
-        &:hover {
-            background-color: $backgroundtwo;
-        }
-
-        width: auto;
-        align-content: center;
-        border: 1px solid $borderfour;
-        border-radius: 3.5px;
-
-        p {
-            font-size: 0.625rem;
-            margin-bottom: 0;
-        }
-
-        h3 {
-            font-size: 1.125rem;
-            color: white;
-        }
+  .navb {
+    &:hover {
+      background-color: $backgroundtwo;
     }
 
-    h2 {
-        color: white;
-        display: block;
-        padding-left: 1.25rem;
-        border-top: 1px solid $borderfour;
-        border-bottom: 1px solid $borderone;
-        line-height: 58px;
-        height: 58px;
-        margin: 0;
-        font-size: 1rem;
+    width: auto;
+    align-content: center;
+    border: 1px solid $borderfour;
+    border-radius: 3.5px;
+
+    p {
+      font-size: 0.625rem;
+      margin-bottom: 0;
     }
 
-    ul {
-        padding: 0;
-        border-radius: 5px;
-        margin: 0;
-        background: $bordertwo;
+    h3 {
+      font-size: 1.125rem;
+      color: white;
     }
+  }
 
-    li {
-        line-height: 48px;
-        min-height: 48px;
-        margin: 0;
+  h2 {
+    color: white;
+    display: block;
+    padding-left: 1.25rem;
+    border-top: 1px solid $borderfour;
+    border-bottom: 1px solid $borderone;
+    line-height: 58px;
+    height: 58px;
+    margin: 0;
+    font-size: 1rem;
+  }
+
+  ul {
+    padding: 0;
+    border-radius: 5px;
+    margin: 0;
+    background: $bordertwo;
+  }
+
+  li {
+    line-height: 48px;
+    min-height: 48px;
+    margin: 0;
+  }
+
+  a {
+    display: block;
+    color: white;
+
+    &:hover {
+      text-decoration: none;
     }
-
-    a {
-        display: block;
-        color: white;
-
-        &:hover {
-            text-decoration: none;
-        }
-    }
+  }
 }
 
 .fa-angle-double-right {
-    font-size: 0.75rem;
-    top: 50%;
+  font-size: 0.75rem;
+  top: 50%;
 }
 
 #bgcolor {
-    background-color: black;
-    color: black;
-    overflow: visible;
+  background-color: black;
+  color: black;
+  overflow: visible;
 }
 
 #pagedim {
-    color: black;
-    transition: opacity 0.25s;
-    width: 100%;
-    height: 100%;
-    position: relative;
-    z-index: 2;
-    background-color: white;
+  color: black;
+  transition: opacity 0.25s;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  z-index: 2;
+  background-color: white;
 }
 
 #bdrv {
-    a {
-        font-size: 0.9rem;
+  a {
+    font-size: 0.9rem;
+  }
 
-    }
+  .nmarrow {
+    padding-left: 1.25rem;
+    border-top: 1px solid $borderthree;
+    border-bottom: 1px solid $borderone;
+  }
 
-    .nmarrow {
-        padding-left: 1.25rem;
-        border-top: 1px solid $borderthree;
-        border-bottom: 1px solid $borderone;
-    }
-
-    .nmarrow:before {
-        content: "\f101";
-        /* FontAwesome Unicode */
-        font-family: FontAwesome;
-        display: inline-block;
-        width: 1.25rem;
-        /* same as padding-left set on li */
-        font-size: 0.5rem;
-    }
+  .nmarrow:before {
+    content: "\f101";
+    /* FontAwesome Unicode */
+    font-family: FontAwesome;
+    display: inline-block;
+    width: 1.25rem;
+    /* same as padding-left set on li */
+    font-size: 0.5rem;
+  }
 }
 
 .sidehover:hover {
-    h2 {
-        background-color: $backgroundtwo;
-    }
+  h2 {
+    background-color: $backgroundtwo;
+  }
 }
 
 .block {
-    width: 216px;
-    margin: 20px auto;
-    text-align: center;
+  width: 216px;
+  margin: 20px auto;
+  text-align: center;
 
-    &:hover {
-        .navb {
-            background-color: $backgroundtwo;
-        }
+  &:hover {
+    .navb {
+      background-color: $backgroundtwo;
     }
+  }
 }
 
 .navborder {
-    margin: 20px 0;
-    border: 1px solid $borderone;
+  margin: 20px 0;
+  border: 1px solid $borderone;
 }
 
 .bordertb {
-    a {
-        border-top: 1px solid $borderthree;
-        border-bottom: 1px solid $borderone;
-    }
+  a {
+    border-top: 1px solid $borderthree;
+    border-bottom: 1px solid $borderone;
+  }
 }
 
 .bordert {
-    a {
-        border-top: 1px solid $borderthree;
-    }
+  a {
+    border-top: 1px solid $borderthree;
+  }
 }
 
 .borderb {
-    a {
-        border-bottom: 1px solid $borderone;
-    }
+  a {
+    border-bottom: 1px solid $borderone;
+  }
 }
 
 .sptsidebar {
-    display: block;
+  display: block;
 }
 
 #bodyidmoved {
-    transition: 0.5s;
-    transform: translate(-258px);
-    cursor: pointer;
+  transition: 0.5s;
+  transform: translateX(-258px);
+  cursor: pointer;
 }
 
 #bodyid {
-    transition: 0.5s;
-    transform: translate(-0px);
-    cursor: default;
+  transition: 0.5s;
+  transform: translateX();
+  cursor: default;
 }

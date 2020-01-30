@@ -1,211 +1,210 @@
 /* ================================= 
     BREAK POINT TWO
   ==================================== */
-  
+
 @media (min-width: 992px) {
-    #bodyidmoved {
-        transform: translate(-350px);
+  #bodyidmoved {
+    transform: translateX(-350px);
+  }
+
+  #sidebar {
+    height: 100%;
+    width: 350px;
+  }
+
+  .sptsidebar {
+    display: none;
+  }
+
+  .mobmenu {
+    display: none;
+  }
+
+  .maintext-bg {
+    height: 35rem;
+    background-image: url("/Images/branded.png");
+    background-size: auto 100%;
+    line-height: 1.85;
+    font-size: 1.075rem;
+  }
+
+  #supportbutton,
+  #contactbutton {
+    display: inline;
+  }
+
+  #bdr {
+    display: flex;
+  }
+
+  .navb {
+    width: 158px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+
+  .banner {
+    height: 759px;
+    text-align: left;
+    padding-top: 15.5rem;
+
+    p {
+      padding: 0;
+      margin: 0;
+      margin-bottom: 2.5em;
+      width: 450px;
+    }
+  }
+
+  .bannerweb {
+    background: linear-gradient(90deg, black, transparent 75%),
+      url("/Images/web-design.jpg") no-repeat center;
+  }
+
+  .bannerit {
+    background: linear-gradient(90deg, black, transparent 75%),
+      url("/Images/it-support.jpg") no-repeat center;
+  }
+
+  .bcontainer {
+    width: 937.5px;
+    margin: auto;
+    padding: 0;
+  }
+
+  .maintext-bg {
+    height: 463px;
+  }
+
+  .nmcontainer {
+    width: 937.5px;
+    margin: 0 auto;
+    padding: 2.5rem 1.5rem 0.5rem 0rem;
+  }
+
+  #cardset1 {
+    width: 975px;
+
+    .nmcard {
+      max-width: 455px;
     }
 
-    #sidebar {
-        height: 100%;
-        width: 350px;
+    .cardtext {
+      font-size: 0.85rem;
+      margin-right: 2.5rem;
+      margin-left: 2.5rem;
+    }
+  }
+
+  #cardset3 {
+    width: 975px;
+
+    .nmcard {
+      max-width: 455px;
     }
 
-    .sptsidebar {
-        display: none;
+    .cardtext {
+      margin-right: 2.5rem;
+      margin-left: 2.5rem;
+    }
+  }
+
+  #cardset4 {
+    padding: 0rem 0rem 4rem 0rem;
+    width: 975px;
+
+    .nmcard {
+      max-width: 455px;
     }
 
-    .mobmenu {
-        display: none;
+    .cardtext {
+      font-size: 0.85rem;
+      margin-right: 2.5rem;
+      margin-left: 2.5rem;
     }
 
-    .maintext-bg {
-        height: 35rem;
-        background-image: url('/Images/branded.png');
-        background-size: auto 100%;
-        line-height: 1.85;
-        font-size: 1.075rem;
+    #cybercard {
+      p {
+        margin-bottom: 1.625rem;
+      }
+    }
+  }
+
+  .artcont {
+    width: 975px;
+  }
+
+  .nmacard {
+    margin: auto;
+    min-height: 624px;
+    max-width: 450px;
+  }
+
+  .agroup {
+    width: 960px;
+  }
+
+  #acard1 {
+    .cardtext {
+      padding-bottom: 10rem;
     }
 
-    #supportbutton,
-    #contactbutton {
-        display: inline;
+    h5 {
+      margin-bottom: 1.05rem;
+    }
+  }
+
+  #acard2 {
+    h5 {
+      margin-bottom: 2.55rem;
+    }
+  }
+
+  .nmlinks {
+    width: 925px;
+  }
+
+  .socialmedianm {
+    width: 13.25rem;
+  }
+
+  .splitspace {
+    margin-right: 15rem;
+  }
+
+  .logos {
+    width: 925px;
+
+    .imgdisplay {
+      img {
+        height: 6rem;
+      }
     }
 
-    #bdr {
-        display: flex;
+    .imgset {
+      img {
+        height: 4rem;
+      }
     }
+  }
 
-    .navb {
-        width: 158px;
-        margin-bottom: 0;
-        padding-bottom: 0;
-    }
+  #btt {
+    margin-top: -11.55rem;
+    margin-left: -2.5rem;
+  }
 
-    .banner {
-        height: 759px;
-        text-align: left;
-        padding-top: 15.5rem;
+  #cgbtt {
+    margin-top: -14.2rem;
+    margin-left: 0.25rem;
+  }
 
-        p {
-        padding: 0;
-        margin: 0;
-        margin-bottom: 2.5em;
-        width: 450px;
-        }
-    }
+  #bedtt {
+    margin-top: -11.55rem;
+    margin-left: -5.75rem;
+  }
 
-    .bannerweb {
-        background: linear-gradient(90deg, black, transparent 75%),
-        url('/Images/web-design.jpg') no-repeat center;
-    }
-
-    .bannerit {
-        background: linear-gradient(90deg, black, transparent 75%),
-        url('/Images/it-support.jpg') no-repeat center;
-    }
-
-    .bcontainer {
-        width: 937.5px;
-        margin: auto;
-        padding: 0;
-    }
-
-    .maintext-bg {
-        height: 463px;
-    }
-
-    .nmcontainer {
-        width: 937.5px;
-        margin: 0 auto;
-        padding: 2.5rem 1.5rem 0.5rem 0rem;
-    }
-
-    #cardset1 {
-        width: 975px;
-
-        .nmcard {
-        max-width: 455px;
-        }
-
-        .cardtext {
-        font-size: 0.85rem;
-        margin-right: 2.5rem;
-        margin-left: 2.5rem;
-        }
-    }
-
-    #cardset3 {
-        width: 975px;
-
-        .nmcard {
-        max-width: 455px;
-        }
-
-        .cardtext {
-        margin-right: 2.5rem;
-        margin-left: 2.5rem;
-        }
-    }
-
-    #cardset4 {
-        padding: 0rem 0rem 4rem 0rem;
-        width: 975px;
-
-        .nmcard {
-        max-width: 455px;
-        }
-
-        .cardtext {
-        font-size: 0.85rem;
-        margin-right: 2.5rem;
-        margin-left: 2.5rem;
-        }
-
-        #cybercard {
-        p {
-            margin-bottom: 1.625rem;
-        }
-        }
-    }
-
-    .artcont {
-        width: 975px;
-    }
-
-    .nmacard {
-        margin: auto;
-        min-height: 624px;
-        max-width: 450px;
-    }
-
-    .agroup {
-        width: 960px;
-    }
-
-    #acard1 {
-        .cardtext {
-        padding-bottom: 10rem;
-        }
-
-        h5 {
-        margin-bottom: 1.05rem;
-        }
-    }
-
-    #acard2 {
-        h5 {
-        margin-bottom: 2.55rem;
-        }
-    }
-
-    .nmlinks {
-        width: 925px;
-    }
-
-    .socialmedianm {
-        width: 13.25rem;
-    }
-
-    .splitspace {
-        margin-right: 15rem;
-    }
-
-    .logos {
-        width: 925px;
-
-        .imgdisplay {
-        img {
-            height: 6rem;
-        }
-        
-        }
-
-        .imgset {
-        img {
-            height: 4rem;
-        }
-        }
-    }
-
-    #btt {
-        margin-top: -11.55rem;
-        margin-left: -2.5rem;
-    }
-
-    #cgbtt {
-        margin-top: -14.2rem;
-        margin-left: 0.25rem;
-    }
-
-    #bedtt {
-        margin-top: -11.55rem;
-        margin-left: -5.75rem;
-    }
-
-    #ndtt {
-        margin-top: -14.2rem;
-        margin-left: 1rem;
-    }
+  #ndtt {
+    margin-top: -14.2rem;
+    margin-left: 1rem;
+  }
 }

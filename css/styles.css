@@ -57,6 +57,29 @@ li span {
 /* ================================= 
   Logo + Buttons
 ==================================== */
+#navbar {
+  background-color: white;
+  /* Black background color */
+  position: static;
+  /* Make it stick/fixed */
+  top: 0;
+  /* Stay on top */
+  width: 100%;
+  /* Full width */
+  -webkit-transition: top 0.3s;
+  transition: top 0.3s;
+  /* Transition effect when sliding down (and up) */
+  z-index: 20;
+}
+
+#content {
+  padding-top: 0px;
+}
+
+#content-scroll {
+  padding-top: 210px;
+}
+
 .main-header {
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
@@ -115,7 +138,7 @@ li span {
 
 #menubutton {
   border: none;
-  padding: .3rem .95rem .2rem .95rem;
+  padding: 0.3rem 0.95rem 0.2rem 0.95rem;
   margin-right: 15px;
   background-color: #333645;
   color: white;
@@ -158,7 +181,7 @@ li span {
 .navmenu {
   background: #333645;
   border: #0077b5;
-  border-bottom: 1px #999AA2 solid;
+  border-bottom: 1px #999aa2 solid;
 }
 
 .navmenu h3 {
@@ -188,14 +211,14 @@ li span {
 
 #bdr {
   display: none;
-  border-left: 1px solid #484A58;
+  border-left: 1px solid #262834;
   border-right: 1px solid #484A58;
 }
 
 .navb {
   width: 195px;
   text-align: center;
-  border-color: #333645 #484A58 #333645 #484A58;
+  border-color: #333645 #262834 #333645 #484A58;
   border-style: solid;
   border-width: 1px;
 }
@@ -647,16 +670,16 @@ ul .dashnm:before {
 #bodyidmoved {
   -webkit-transition: 0.5s;
   transition: 0.5s;
-  -webkit-transform: translate(-258px);
-          transform: translate(-258px);
+  -webkit-transform: translateX(-258px);
+          transform: translateX(-258px);
   cursor: pointer;
 }
 
 #bodyid {
   -webkit-transition: 0.5s;
   transition: 0.5s;
-  -webkit-transform: translate(0px);
-          transform: translate(0px);
+  -webkit-transform: translateX();
+          transform: translateX();
   cursor: default;
 }
 
@@ -1678,8 +1701,8 @@ ul .dashnm:before {
   ==================================== */
 @media (min-width: 992px) {
   #bodyidmoved {
-    -webkit-transform: translate(-350px);
-            transform: translate(-350px);
+    -webkit-transform: translateX(-350px);
+            transform: translateX(-350px);
   }
   #sidebar {
     height: 100%;

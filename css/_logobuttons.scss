@@ -2,95 +2,128 @@
   Logo + Buttons
 ==================================== */
 
+#navbar {
+  background-color: white; /* Black background color */
+  position: static; /* Make it stick/fixed */
+  top: 0; /* Stay on top */
+  width: 100%; /* Full width */
+  transition: top 0.3s; /* Transition effect when sliding down (and up) */
+  z-index: 20;
+}
+
+#content {
+  padding-top: 0px;
+}
+
+#content-scroll {
+  padding-top: 210px;
+}
+
+// .fixed {
+//   position: fixed;
+//   top: 0;
+//   left: 0;
+//   width: 100%;
+//   z-index: 15;
+//   background-color: white;
+//   transition: 1s;
+// }
+
+// .sticky {
+//   position: block;
+//   background-color: white;
+//   transition: 1s;
+// }
+
 .main-header {
-    padding-top: 1.25rem;
-    padding-bottom: 1.25rem;
-    height: 110px;
-    overflow: hidden;
-    background-color: white;
-    vertical-align: middle;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+  height: 110px;
+  overflow: hidden;
+  background-color: white;
+  vertical-align: middle;
+}
+
+.main-nav {
+  margin-top: 0.5rem;
+  display: flex;
+  float: right;
+}
+
+#logo {
+  padding-left: 15px;
+  float: left;
+  border-image-repeat: stretch;
+}
+
+#supportbutton,
+#contactbutton {
+  display: none;
+  text-decoration: none;
+  padding: 0.85rem 0.875rem 0.85rem 0.95rem;
+  margin-right: 1.2rem;
+  color: white;
+  font-size: 1.125rem;
+  letter-spacing: 0.0375rem;
+}
+
+#supportbutton,
+#contactbutton,
+#menubutton {
+  border-radius: 2.5px;
+}
+
+#supportbutton {
+  background-color: $light-it;
+
+  &:hover {
+    background-color: $dark-it;
   }
-  
-  .main-nav {
-    margin-top: 0.5rem;
-    display: flex;
-    float: right;
+}
+
+#contactbutton {
+  background-color: $light-contact;
+
+  &:hover {
+    background-color: $dark-contact;
   }
-  
-  #logo {
-    padding-left: 15px;
-    float: left;
-    border-image-repeat: stretch;
+}
+
+#menubutton {
+  border: none;
+  padding: 0.3rem 0.95rem 0.2rem 0.95rem;
+  margin-right: 15px;
+  background-color: $backgroundone;
+  color: white;
+  font-size: 0.715rem;
+
+  &:hover {
+    background-color: $backgroundhover;
   }
-  
-  #supportbutton,
-  #contactbutton {
-    display: none;
-    text-decoration: none;
-    padding: 0.85rem 0.875rem 0.85rem 0.95rem;
-    margin-right: 1.2rem;
-    color: white;
-    font-size: 1.125rem;
-    letter-spacing: 0.0375rem;
+}
+
+.fa-mouse,
+.fa-paper-plane {
+  padding-right: 0.875rem;
+  font-size: 1.215rem;
+}
+
+.nmsideclick {
+  font-size: 1.875rem;
+}
+
+#phoneicon {
+  display: block;
+  width: 2rem;
+  font-size: 2rem;
+  margin-right: 1.5rem;
+
+  a:hover {
+    color: $backgroundone;
   }
-  
-  #supportbutton,
-  #contactbutton,
-  #menubutton {
-    border-radius: 2.5px;
+
+  &:hover {
+    border-bottom: solid;
+    border-width: 5px;
   }
-  
-  #supportbutton {
-    background-color: $light-it;
-  
-    &:hover {
-      background-color: $dark-it;
-    }
-  }
-  
-  #contactbutton {
-    background-color: $light-contact;
-  
-    &:hover {
-      background-color: $dark-contact;
-    }
-  }
-  
-  #menubutton {
-    border: none;
-    padding: .3rem .95rem .2rem .95rem;
-    margin-right: 15px;
-    background-color: $backgroundone;
-    color: white;
-    font-size: 0.715rem;
-  
-    &:hover {
-      background-color: $backgroundhover;
-    }
-  }
-  
-  .fa-mouse,
-  .fa-paper-plane {
-    padding-right: 0.875rem;
-    font-size: 1.215rem;
-  }
-  
-  .nmsideclick {
-    font-size: 1.875rem;
-  }
-  
-  #phoneicon {
-    display: block;
-    width: 2rem;
-    font-size: 2rem;
-    margin-right: 1.5rem;
-    a:hover {
-      color: $backgroundone;
-      
-    }
-  
-    &:hover {
-      border-bottom: solid;
-      border-width: 5px;
-    }
-  }
+}
