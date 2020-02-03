@@ -113,7 +113,6 @@ $(".slides").slick({
   speed: 250 // The speed of the transition animation, in this case 0.25s
 });
 
-let mq = window.matchMedia("(max-width: 992px)"); // JS media query for the second break point, where the nav bar disappears
 let prevScrollpos = window.pageYOffset;
 $(window).scroll(function() {
   let sticky = $(".sticky"),
