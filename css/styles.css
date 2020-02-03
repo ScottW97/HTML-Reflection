@@ -103,8 +103,8 @@ li span {
   border-image-repeat: stretch;
 }
 
-#supportbutton,
-#contactbutton {
+.supportbutton,
+.contactbutton {
   display: none;
   text-decoration: none;
   padding: 0.85rem 0.875rem 0.85rem 0.95rem;
@@ -114,29 +114,35 @@ li span {
   letter-spacing: 0.0375rem;
 }
 
-#supportbutton,
-#contactbutton,
-#menubutton {
+.supportbutton:hover,
+.contactbutton:hover {
+  color: white;
+  text-decoration: none;
+}
+
+.supportbutton,
+.contactbutton,
+.menubutton {
   border-radius: 2.5px;
 }
 
-#supportbutton {
+.supportbutton {
   background-color: #4183D7;
 }
 
-#supportbutton:hover {
+.supportbutton:hover {
   background-color: #2A6EC6;
 }
 
-#contactbutton {
+.contactbutton {
   background-color: #999AA2;
 }
 
-#contactbutton:hover {
+.contactbutton:hover {
   background-color: #84858F;
 }
 
-#menubutton {
+.menubutton {
   border: none;
   padding: 0.3rem 0.95rem 0.2rem 0.95rem;
   margin-right: 15px;
@@ -145,7 +151,7 @@ li span {
   font-size: 0.715rem;
 }
 
-#menubutton:hover {
+.menubutton:hover {
   background-color: #22242E;
 }
 
@@ -159,18 +165,18 @@ li span {
   font-size: 1.875rem;
 }
 
-#phoneicon {
+.phoneicon {
   display: block;
   width: 2rem;
   font-size: 2rem;
   margin-right: 1.5rem;
 }
 
-#phoneicon a:hover {
+.phoneicon a:hover {
   color: #333645;
 }
 
-#phoneicon:hover {
+.phoneicon:hover {
   border-bottom: solid;
   border-width: 5px;
 }
@@ -209,7 +215,7 @@ li span {
   padding: 0;
 }
 
-#bdr {
+.bdr {
   display: none;
   border-left: 1px solid #262834;
   border-right: 1px solid #484A58;
@@ -257,6 +263,11 @@ li span {
 .menub {
   font-size: 1.25rem;
   padding-bottom: 0.5rem;
+}
+
+#navbar {
+  position: fixed;
+  display: none;
 }
 
 /* ================================= 
@@ -356,27 +367,27 @@ ul .dashnm:before {
 /* ================================= 
   Drop-Down Colours
 ==================================== */
-#weblist {
+.weblist {
   background: #79539a;
 }
 
-#itlist {
+.itlist {
   background: #2A6EC6;
 }
 
-#telelist {
+.telelist {
   background: #c42e2a;
 }
 
-#bespokelist {
+.bespokelist {
   background: #526681;
 }
 
-#marlist {
+.marlist {
   background: #25a25a;
 }
 
-#cyberlist {
+.cyberlist {
   background: #de093f;
 }
 
@@ -1528,7 +1539,7 @@ ul .dashnm:before {
   BREAK POINT ONE
 ==================================== */
 @media (min-width: 768px) {
-  #phoneicon {
+  .phoneicon {
     display: none;
   }
   .logos {
@@ -1721,11 +1732,11 @@ ul .dashnm:before {
     line-height: 1.85;
     font-size: 1.075rem;
   }
-  #supportbutton,
-  #contactbutton {
+  .supportbutton,
+  .contactbutton {
     display: inline;
   }
-  #bdr {
+  .bdr {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;

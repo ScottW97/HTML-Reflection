@@ -3,6 +3,7 @@
   ==================================== */
 
 @media (min-width: 992px) {
+
   #bodyidmoved {
     transform: translateX(-350px);
   }
@@ -28,12 +29,12 @@
     font-size: 1.075rem;
   }
 
-  #supportbutton,
-  #contactbutton {
+  .supportbutton,
+  .contactbutton {
     display: inline;
   }
 
-  #bdr {
+  .bdr {
     display: flex;
   }
 

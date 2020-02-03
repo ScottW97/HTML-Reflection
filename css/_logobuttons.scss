@@ -3,11 +3,16 @@
 ==================================== */
 
 #navbar {
-  background-color: white; /* Black background color */
-  position: static; /* Make it stick/fixed */
-  top: 0; /* Stay on top */
-  width: 100%; /* Full width */
-  transition: top 0.3s; /* Transition effect when sliding down (and up) */
+  background-color: white;
+  /* Black background color */
+  position: static;
+  /* Make it stick/fixed */
+  top: 0;
+  /* Stay on top */
+  width: 100%;
+  /* Full width */
+  transition: top 0.3s;
+  /* Transition effect when sliding down (and up) */
   z-index: 20;
 }
 
@@ -18,22 +23,6 @@
 #content-scroll {
   padding-top: 210px;
 }
-
-// .fixed {
-//   position: fixed;
-//   top: 0;
-//   left: 0;
-//   width: 100%;
-//   z-index: 15;
-//   background-color: white;
-//   transition: 1s;
-// }
-
-// .sticky {
-//   position: block;
-//   background-color: white;
-//   transition: 1s;
-// }
 
 .main-header {
   padding-top: 1.25rem;
@@ -56,8 +45,8 @@
   border-image-repeat: stretch;
 }
 
-#supportbutton,
-#contactbutton {
+.supportbutton,
+.contactbutton {
   display: none;
   text-decoration: none;
   padding: 0.85rem 0.875rem 0.85rem 0.95rem;
@@ -65,15 +54,20 @@
   color: white;
   font-size: 1.125rem;
   letter-spacing: 0.0375rem;
+
+  &:hover {
+    color: white;
+    text-decoration: none;
+  }
 }
 
-#supportbutton,
-#contactbutton,
-#menubutton {
+.supportbutton,
+.contactbutton,
+.menubutton {
   border-radius: 2.5px;
 }
 
-#supportbutton {
+.supportbutton {
   background-color: $light-it;
 
   &:hover {
@@ -81,7 +75,7 @@
   }
 }
 
-#contactbutton {
+.contactbutton {
   background-color: $light-contact;
 
   &:hover {
@@ -89,7 +83,7 @@
   }
 }
 
-#menubutton {
+.menubutton {
   border: none;
   padding: 0.3rem 0.95rem 0.2rem 0.95rem;
   margin-right: 15px;
@@ -112,7 +106,7 @@
   font-size: 1.875rem;
 }
 
-#phoneicon {
+.phoneicon {
   display: block;
   width: 2rem;
   font-size: 2rem;

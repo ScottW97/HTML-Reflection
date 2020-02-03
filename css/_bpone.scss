@@ -3,7 +3,7 @@
 ==================================== */
 
 @media (min-width: 768px) {
-    #phoneicon {
+    .phoneicon {
         display: none;
     }
 
@@ -16,15 +16,15 @@
         padding: 3.05rem 0 3.5rem 0;
 
         .imgdisplay {
-        img {
-            height: 3.25rem;
-        }
+            img {
+                height: 3.25rem;
+            }
         }
 
         .imgset {
-        img {
-            height: 3rem;
-        }
+            img {
+                height: 3rem;
+            }
         }
     }
 
@@ -57,7 +57,7 @@
 
     #acard2 {
         h5 {
-        margin-bottom: 2.55rem;
+            margin-bottom: 2.55rem;
         }
     }
 
@@ -82,14 +82,14 @@
         display: flex;
 
         .nmcard {
-        margin: 0 1rem 0 1rem;
-        max-width: 350px;
+            margin: 0 1rem 0 1rem;
+            max-width: 350px;
         }
 
         .cardtext {
-        font-size: 0.85rem;
-        margin-right: 1.75rem;
-        margin-left: 1.75rem;
+            font-size: 0.85rem;
+            margin-right: 1.75rem;
+            margin-left: 1.75rem;
         }
     }
 
@@ -101,13 +101,13 @@
         display: flex;
 
         .nmcard {
-        margin: 0 1rem 0 1rem;
-        max-width: 350px;
+            margin: 0 1rem 0 1rem;
+            max-width: 350px;
         }
 
         .cardtext {
-        margin-right: 1.75rem;
-        margin-left: 1.75rem;
+            margin-right: 1.75rem;
+            margin-left: 1.75rem;
         }
     }
 
@@ -119,20 +119,20 @@
         display: flex;
 
         .nmcard {
-        margin: 0 1rem 0 1rem;
-        max-width: 350px;
+            margin: 0 1rem 0 1rem;
+            max-width: 350px;
         }
 
         .cardtext {
-        font-size: 0.85rem;
-        margin-right: 1.75rem;
-        margin-left: 1.75rem;
+            font-size: 0.85rem;
+            margin-right: 1.75rem;
+            margin-left: 1.75rem;
         }
 
         #cybercard1 {
-        p {
-            margin-bottom: 2.3rem;
-        }
+            p {
+                margin-bottom: 2.3rem;
+            }
         }
     }
 

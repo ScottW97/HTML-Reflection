@@ -75,17 +75,17 @@
   }
 })();
 
+const menuDiv = document.querySelector(".menuclick");
+
 function openSlideMenu() {
   document.getElementById("bodyid").id = "bodyidmoved"; // Changing the body id (or the div that acts as it) to allow for it to be moved
   document.getElementById("pagedim").style.opacity = "0.5"; // Dimming the page in front of a black background
-  document.getElementById("menuclick").innerHTML =
-    '<button id="menubutton"><i class="fas fa-times nmsideclick"></i><br>MENU</button>'; //Changing the icon of the menu button to a cross
+  menuDiv.innerHTML =
+    '<button class="menubutton"><i class="fas fa-times nmsideclick"></i><br>MENU</button>'; //Changing the icon of the menu button to a cross
   document.getElementById("bodyscroll").style.overflow = "hidden"; // Disabling scrolling
   setTimeout(function() {
     document.getElementById("sidebar").style.zIndex = "2"; // Delayed code to prevent clashing
-    document
-      .getElementById("menuclick")
-      .setAttribute("onClick", "closeSlideMenu()");
+    menuDiv.setAttribute("onClick", "closeSlideMenu()");
     document
       .getElementById("bgcolor")
       .setAttribute("onClick", "closeSlideMenu()");
@@ -95,11 +95,9 @@ function openSlideMenu() {
 function closeSlideMenu() {
   document.getElementById("bodyidmoved").id = "bodyid"; // Changing the body id back so that it's back to its original placement
   document.getElementById("pagedim").style.opacity = "1"; // Returning the opacity to normal
-  document
-    .getElementById("menuclick")
-    .setAttribute("onClick", "openSlideMenu()"); // Menu can now be clicked to re-open the sidebar
-  document.getElementById("menuclick").innerHTML =
-    '<button id="menubutton"><i class="fas fa-bars nmsideclick"></i><br>MENU</button>'; // Returning the menu button HTML to the bar icon
+  menuDiv.setAttribute("onClick", "openSlideMenu()"); // Menu can now be clicked to re-open the sidebar
+  menuDiv.innerHTML =
+    '<button class="menubutton"><i class="fas fa-bars nmsideclick"></i><br>MENU</button>'; // Returning the menu button HTML to the bar icon
   document.getElementById("bodyscroll").style.overflow = "visible"; // Allowing scrolling
   setTimeout(function() {
     document.getElementById("bgcolor").setAttribute("onClick", ""); // HTML for bgcolour now does nothing
@@ -120,40 +118,34 @@ let prevScrollpos = window.pageYOffset;
 $(window).scroll(function() {
   let sticky = $(".sticky"),
     scroll = $(window).scrollTop();
+
   if (scroll >= 216) {
     //Condition for when scrolling past the 216px threshold at the top of the page
-    document.getElementById("navbar").style.position = "fixed"; // Navbar is fixed when the 216px threshold is passed
+    // Navbar is fixed when the 216px threshold is passed
+
     window.onscroll = function() {
       // Begin function on scroll
       let currentScrollPos = window.pageYOffset; // Current scroll position is defined as wherever the user currently is
-      if (prevScrollpos > currentScrollPos) {
+
+      if (prevScrollpos < currentScrollPos) {
+        document.getElementById("navbar").style.top = "-210px";
+        setTimeout(function() {
+          document.getElementById("navbar").style.display = "none";
+        }, 300);
+      } else if (prevScrollpos > currentScrollPos) {
         // Conditional for if the user scrolls up (which will bring down the menu)
-        document.getElementById("navbar").style.top = "0";
-      } else {
-        if (mq.matches) {
-          // Media query for different screen sizes
-          // window width is at less than 992px
-          document.getElementById("navbar").style.top = "-110px";
-        } else {
-          // window width is greater than 992px
-          document.getElementById("navbar").style.top = "-210px";
-        }
+        document.getElementById("navbar").style.display = "block";
+        setTimeout(function() {
+          document.getElementById("navbar").style.top = "0";
+        }, 300);
       }
       prevScrollpos = currentScrollPos;
     };
-    if (mq.matches) {
-      // Media query for different screen sizes
-      // window width is at less than 992px
-      document.getElementById("content").style.paddingTop = "110px";
-    } else {
-      // window width is greater than 992px
-      document.getElementById("content").style.paddingTop = "210px";
-    }
   } else {
     if (scroll > prevScrollpos) {
       // If scrolling up, the navbar doesn't move away even when within the 110-210px range
-      document.getElementById("content").style.paddingTop = "";
-      document.getElementById("navbar").style.position = "static";
+      document.getElementById("navbar").style.top = "-210px";
+      document.getElementById("navbar").style.display = "none";
     }
   }
 });
