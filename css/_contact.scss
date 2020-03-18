@@ -1,0 +1,55 @@
+.contactFrm h4 {
+    font-size: 1em;
+    color: #252525;
+    margin-bottom: 0.5em;
+    font-weight: bold;
+}
+.contactFrm input[type="text"], .contactFrm input[type="email"] {
+    width: 92%;
+    color: #9370DB;
+    background: #fff;
+    outline: none;
+    font-size: 0.9em;
+    padding: .7em 1em;
+    border: 1px solid $shadow-colour;
+    -webkit-appearance: none;
+    display: block;
+    margin-bottom: 1.2em;
+}
+.contactFrm textarea {
+    resize: none;
+    width: 93.5%;
+    background: #fff;
+    color: #9370DB;
+    font-size: 0.9em;
+    outline: none;
+    padding: .6em 1em;
+    border: 1px solid $shadow-colour;
+    min-height: 10em;
+    -webkit-appearance: none;
+}
+.contactFrm input[type="submit"] {
+   
+    padding: 0.75rem 0.875rem 0.75rem 0.95rem;
+    color: $backgroundone;
+    font-size: 1.05rem;
+    border-radius: 3px;
+    letter-spacing: 0.0375rem;
+    background-color: white;
+    color: $backgroundone;
+    text-decoration: none;
+    
+    &:hover {
+        color: $backgroundone;
+        text-decoration: none;
+        background-color: #ebebeb;
+    }
+      
+}
+.contactFrm input[type="submit"]:hover {
+    background: none;
+    color: #9370DB;
+}
+p.statusMsg{font-size:18px;}
+p.succdiv{color: #008000;}
+p.errordiv{color:#E80000;}

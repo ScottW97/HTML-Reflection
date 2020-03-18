@@ -7,42 +7,42 @@
     margin: 0 auto;
   }
   
-  #culture {
-    padding: 0.75rem 0.875rem 0.75rem 0.95rem;
-    color: $backgroundone;
-    font-size: 1.05rem;
-    border-radius: 3px;
-    letter-spacing: 0.0375rem;
-    background-color: white;
+#culture {
+  padding: 0.75rem 0.875rem 0.75rem 0.95rem;
+  color: $backgroundone;
+  font-size: 1.05rem;
+  border-radius: 3px;
+  letter-spacing: 0.0375rem;
+  background-color: white;
+  color: $backgroundone;
+  text-decoration: none;
+
+  &:hover {
     color: $backgroundone;
     text-decoration: none;
-  
-    &:hover {
-      color: $backgroundone;
-      text-decoration: none;
-      background-color: #ebebeb;
-    }
-  
-    .fa-arrow-right {
-      padding-left: 0.5rem;
-    }
+    background-color: #ebebeb;
   }
-  
-  .maintext-bg {
+
+  .fa-arrow-right {
+    padding-left: 0.5rem;
+  }
+}
+
+.maintext-bg {
+  color: white;
+  background-color: $backgroundone;
+  background-repeat: no-repeat;
+  background-position: right center;
+  line-height: 1.85;
+  font-size: 1.075rem;
+
+  h2 {
+    font-size: 2.25rem;
     color: white;
-    background-color: $backgroundone;
-    background-repeat: no-repeat;
-    background-position: right center;
-    line-height: 1.85;
-    font-size: 1.075rem;
-  
-    h2 {
-      font-size: 2.25rem;
-      color: white;
-      margin-bottom: 1.75rem;
-    }
-  
-    .bold {
-      font-weight: bold;
-    }
+    margin-bottom: 1.75rem;
   }
+
+  .bold {
+    font-weight: bold;
+  }
+}
