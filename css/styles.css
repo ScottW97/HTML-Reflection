@@ -391,147 +391,6 @@ ul .dashnm:before {
   background: #de093f;
 }
 
-/* ================================= 
-  Banner
-==================================== */
-.slides:active {
-  cursor: -webkit-grab;
-  cursor: grab;
-}
-
-.banner {
-  height: calc(100vh - 111px);
-  font-size: 1.375rem;
-  background-size: cover;
-  color: white;
-  text-align: center;
-  vertical-align: middle;
-}
-
-.banner h2 {
-  color: white;
-  font-size: 3rem;
-  padding-bottom: 1rem;
-}
-
-.banner p {
-  margin: auto;
-  margin-bottom: 2.5em;
-  width: 450px;
-  padding: 0;
-}
-
-.bannerweb {
-  background: -webkit-gradient(linear, left top, right top, from(black), color-stop(162.5%, transparent)), url("/Images/web-design.jpg") no-repeat center;
-  background: linear-gradient(90deg, black, transparent 162.5%), url("/Images/web-design.jpg") no-repeat center;
-  background-size: cover;
-}
-
-.bannerit {
-  background: -webkit-gradient(linear, left top, right top, from(black), color-stop(162.5%, transparent)), url("/Images/it-support.jpg") no-repeat center;
-  background: linear-gradient(90deg, black, transparent 162.5%), url("/Images/it-support.jpg") no-repeat center;
-  background-size: cover;
-}
-
-.bannertele {
-  background: -webkit-gradient(linear, left top, right top, from(black), color-stop(162.5%, transparent)), url("/Images/telecoms-services.jpg") no-repeat center;
-  background: linear-gradient(90deg, black, transparent 162.5%), url("/Images/telecoms-services.jpg") no-repeat center;
-  background-size: cover;
-}
-
-.bannerbesp {
-  background: -webkit-gradient(linear, left top, right top, from(black), color-stop(162.5%, transparent)), url("/Images/bespoke-software.jpg") no-repeat center;
-  background: linear-gradient(90deg, black, transparent 162.5%), url("/Images/bespoke-software.jpg") no-repeat center;
-  background-size: cover;
-}
-
-.bannerdigi {
-  background: -webkit-gradient(linear, left top, right top, from(black), color-stop(162.5%, transparent)), url("/Images/digital-marketing.jpg") no-repeat center;
-  background: linear-gradient(90deg, black, transparent 162.5%), url("/Images/digital-marketing.jpg") no-repeat center;
-  background-size: cover;
-}
-
-.bannercyber {
-  background: -webkit-gradient(linear, left top, right top, from(black), color-stop(162.5%, transparent)), url("/Images/cyber-security.jpg") no-repeat center;
-  background: linear-gradient(90deg, black, transparent 162.5%), url("/Images/cyber-security.jpg") no-repeat center;
-  background-size: cover;
-}
-
-@media (max-width: 465px) {
-  .banner p {
-    width: 80%;
-  }
-}
-
-.bannerb {
-  color: white;
-  padding: 1rem;
-  font-size: 1.25rem;
-  border-radius: 2.5px;
-  letter-spacing: 0.0375rem;
-}
-
-.bannerb:hover {
-  color: white;
-  text-decoration: none;
-}
-
-.bannerb .arrowb {
-  margin-left: 1rem;
-}
-
-.bcontainer {
-  padding-top: 31vh;
-}
-
-.web-b {
-  background-color: #926fb1;
-}
-
-.web-b:hover {
-  background-color: #79539a;
-}
-
-.it-b {
-  background-color: #4183D7;
-}
-
-.it-b:hover {
-  background-color: #2A6EC6;
-}
-
-.tele-b {
-  background-color: #d64541;
-}
-
-.tele-b:hover {
-  background-color: #c42e2a;
-}
-
-.besp-b {
-  background-color: #67809f;
-}
-
-.besp-b:hover {
-  background-color: #526681;
-}
-
-.digi-b {
-  background-color: #2ecc71;
-}
-
-.digi-b:hover {
-  background-color: #25a25a;
-}
-
-.cyber-b {
-  background-color: #f63459;
-}
-
-.cyber-b:hover {
-  background-color: #de093f;
-}
-
 #sidebar {
   height: 100%;
   width: 258px;
@@ -692,6 +551,147 @@ ul .dashnm:before {
   -webkit-transform: translateX();
           transform: translateX();
   cursor: default;
+}
+
+/* ================================= 
+  Banner
+==================================== */
+.slides:active {
+  cursor: -webkit-grab;
+  cursor: grab;
+}
+
+.banner {
+  height: calc(100vh - 111px);
+  font-size: 1.375rem;
+  background-size: cover;
+  color: white;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.banner h2 {
+  color: white;
+  font-size: 3rem;
+  padding-bottom: 1rem;
+}
+
+.banner p {
+  margin: auto;
+  margin-bottom: 2.5em;
+  width: 450px;
+  padding: 0;
+}
+
+.bannerweb {
+  background: -webkit-gradient(linear, left top, right top, from(black), color-stop(162.5%, transparent)), url("/Images/web-design.jpg") no-repeat center;
+  background: linear-gradient(90deg, black, transparent 162.5%), url("/Images/web-design.jpg") no-repeat center;
+  background-size: cover;
+}
+
+.bannerit {
+  background: -webkit-gradient(linear, left top, right top, from(black), color-stop(162.5%, transparent)), url("/Images/it-support.jpg") no-repeat center;
+  background: linear-gradient(90deg, black, transparent 162.5%), url("/Images/it-support.jpg") no-repeat center;
+  background-size: cover;
+}
+
+.bannertele {
+  background: -webkit-gradient(linear, left top, right top, from(black), color-stop(162.5%, transparent)), url("/Images/telecoms-services.jpg") no-repeat center;
+  background: linear-gradient(90deg, black, transparent 162.5%), url("/Images/telecoms-services.jpg") no-repeat center;
+  background-size: cover;
+}
+
+.bannerbesp {
+  background: -webkit-gradient(linear, left top, right top, from(black), color-stop(162.5%, transparent)), url("/Images/bespoke-software.jpg") no-repeat center;
+  background: linear-gradient(90deg, black, transparent 162.5%), url("/Images/bespoke-software.jpg") no-repeat center;
+  background-size: cover;
+}
+
+.bannerdigi {
+  background: -webkit-gradient(linear, left top, right top, from(black), color-stop(162.5%, transparent)), url("/Images/digital-marketing.jpg") no-repeat center;
+  background: linear-gradient(90deg, black, transparent 162.5%), url("/Images/digital-marketing.jpg") no-repeat center;
+  background-size: cover;
+}
+
+.bannercyber {
+  background: -webkit-gradient(linear, left top, right top, from(black), color-stop(162.5%, transparent)), url("/Images/cyber-security.jpg") no-repeat center;
+  background: linear-gradient(90deg, black, transparent 162.5%), url("/Images/cyber-security.jpg") no-repeat center;
+  background-size: cover;
+}
+
+@media (max-width: 465px) {
+  .banner p {
+    width: 80%;
+  }
+}
+
+.bannerb {
+  color: white;
+  padding: 1rem;
+  font-size: 1.25rem;
+  border-radius: 2.5px;
+  letter-spacing: 0.0375rem;
+}
+
+.bannerb:hover {
+  color: white;
+  text-decoration: none;
+}
+
+.bannerb .arrowb {
+  margin-left: 1rem;
+}
+
+.bcontainer {
+  padding-top: 31vh;
+}
+
+.web-b {
+  background-color: #926fb1;
+}
+
+.web-b:hover {
+  background-color: #79539a;
+}
+
+.it-b {
+  background-color: #4183D7;
+}
+
+.it-b:hover {
+  background-color: #2A6EC6;
+}
+
+.tele-b {
+  background-color: #d64541;
+}
+
+.tele-b:hover {
+  background-color: #c42e2a;
+}
+
+.besp-b {
+  background-color: #67809f;
+}
+
+.besp-b:hover {
+  background-color: #526681;
+}
+
+.digi-b {
+  background-color: #2ecc71;
+}
+
+.digi-b:hover {
+  background-color: #25a25a;
+}
+
+.cyber-b {
+  background-color: #f63459;
+}
+
+.cyber-b:hover {
+  background-color: #de093f;
 }
 
 /* ================================= 
@@ -1067,12 +1067,10 @@ ul .dashnm:before {
   border-radius: 3px;
   letter-spacing: 0.0375rem;
   background-color: white;
-  color: #333645;
   text-decoration: none;
 }
 
 #culture:hover {
-  color: #333645;
   text-decoration: none;
   background-color: #ebebeb;
 }
@@ -2088,70 +2086,36 @@ ul .dashnm:before {
   }
 }
 
-.contactFrm h4 {
-  font-size: 1em;
-  color: #252525;
-  margin-bottom: 0.5em;
+.nmform {
+  width: 1170px;
+  margin: 2rem auto;
+}
+
+.formtext {
   font-weight: bold;
+  margin-bottom: 0;
+  letter-spacing: 0.05rem;
+  color: #22242E;
 }
 
-.contactFrm input[type="text"], .contactFrm input[type="email"] {
-  width: 92%;
-  color: #9370DB;
-  background: #fff;
-  outline: none;
-  font-size: 0.9em;
-  padding: .7em 1em;
-  border: 1px solid #CCC;
-  -webkit-appearance: none;
-  display: block;
-  margin-bottom: 1.2em;
+.formtext::after {
+  content: " *";
+  font-weight: normal;
+  color: red;
 }
 
-.contactFrm textarea {
-  resize: none;
-  width: 93.5%;
-  background: #fff;
-  color: #9370DB;
-  font-size: 0.9em;
-  outline: none;
-  padding: .6em 1em;
-  border: 1px solid #CCC;
-  min-height: 10em;
-  -webkit-appearance: none;
-}
-
-.contactFrm input[type="submit"] {
+.nmsubmit {
   padding: 0.75rem 0.875rem 0.75rem 0.95rem;
   color: #333645;
   font-size: 1.05rem;
   border-radius: 3px;
   letter-spacing: 0.0375rem;
   background-color: white;
-  color: #333645;
   text-decoration: none;
 }
 
-.contactFrm input[type="submit"]:hover {
-  color: #333645;
+.nmsubmit:hover {
   text-decoration: none;
   background-color: #ebebeb;
-}
-
-.contactFrm input[type="submit"]:hover {
-  background: none;
-  color: #9370DB;
-}
-
-p.statusMsg {
-  font-size: 18px;
-}
-
-p.succdiv {
-  color: #008000;
-}
-
-p.errordiv {
-  color: #E80000;
 }
 /*# sourceMappingURL=styles.css.map */
